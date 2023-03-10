@@ -1,0 +1,724 @@
+/*-------------------------------------------------------------
+theme name: Chart
+theme uri: 
+author: gol_lukas
+author uri: 
+description: 
+tags: 
+version: 1.0.0
+text domain: 
+-------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+/* author css */
+body {
+  margin: 0;
+  font-size: 16px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  margin-bottom: 0; }
+
+p {
+  margin-bottom: 10px; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none; }
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus,
+.slick-slide {
+  outline: none; }
+
+button {
+  cursor: pointer; }
+
+img {
+  width: 100%;
+  height: auto;
+  display: block; }
+
+/* navbar */
+/* header */
+/* footer */
+/* breadcrumb */
+/* preloader */
+/* button */
+/* form */
+/* accordion */
+/* default */
+.custom-container {
+  max-width: 1810px;
+  margin: auto;
+  padding: 0 50px;
+  overflow: hidden; }
+
+.back-to-top {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  color: #ffffff;
+  background-color: #253c7e;
+  font-size: 30px;
+  font-weight: 700;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  z-index: 9999;
+  display: none; }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .back-to-top {
+      display: none !important; } }
+  @media (max-width: 767.98px) {
+    .back-to-top {
+      display: none !important; } }
+  .back-to-top:hover {
+    background-color: #253c7e; }
+
+.item-rotate {
+  -webkit-animation: rotate 9s normal linear infinite;
+  animation: rotate 9s normal linear infinite; }
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg); }
+  50% {
+    -webkit-transform: rotate3d(0, 0, 1, 180deg);
+    transform: rotate3d(0, 0, 1, 180deg); }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 360deg);
+    transform: rotate3d(0, 0, 1, 360deg); } }
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg); }
+  50% {
+    -webkit-transform: rotate3d(0, 0, 1, 180deg);
+    transform: rotate3d(0, 0, 1, 180deg); }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 360deg);
+    transform: rotate3d(0, 0, 1, 360deg); } }
+
+.item-bounce {
+  -webkit-animation: bounce 3s infinite ease-in-out;
+  animation: bounce 3s infinite ease-in-out; }
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px); }
+  50% {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px); }
+  100% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px); } }
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px); }
+  50% {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px); }
+  100% {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px); } }
+
+.item-zooming {
+  -webkit-animation: zooming 3s infinite ease-in-out;
+  animation: zooming 3s infinite ease-in-out; }
+
+@-webkit-keyframes zooming {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes zooming {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+.item-ripple {
+  -webkit-animation: ripple 3s infinite ease-in-out;
+  animation: ripple 3s infinite ease-in-out; }
+
+@-webkit-keyframes ripple {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(244, 111, 5, 0.2), 0 0 0 20px rgba(244, 111, 5, 0.2), 0 0 0 40px rgba(244, 111, 5, 0.2);
+    box-shadow: 0 0 0 0 rgba(244, 111, 5, 0.2), 0 0 0 20px rgba(244, 111, 5, 0.2), 0 0 0 40px rgba(244, 111, 5, 0.2); }
+  100% {
+    -webkit-box-shadow: 0 0 0 20px rgba(244, 111, 5, 0.2), 0 0 0 40px rgba(244, 111, 5, 0.1), 0 0 0 60px rgba(244, 111, 5, 0);
+    box-shadow: 0 0 0 20px rgba(244, 111, 5, 0.2), 0 0 0 40px rgba(244, 111, 5, 0.1), 0 0 0 60px rgba(244, 111, 5, 0); } }
+
+@keyframes ripple {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(244, 111, 5, 0.2), 0 0 0 20px rgba(244, 111, 5, 0.2), 0 0 0 40px rgba(244, 111, 5, 0.2);
+    box-shadow: 0 0 0 0 rgba(244, 111, 5, 0.2), 0 0 0 20px rgba(244, 111, 5, 0.2), 0 0 0 40px rgba(244, 111, 5, 0.2); }
+  100% {
+    -webkit-box-shadow: 0 0 0 20px rgba(244, 111, 5, 0.2), 0 0 0 40px rgba(244, 111, 5, 0.1), 0 0 0 60px rgba(244, 111, 5, 0);
+    box-shadow: 0 0 0 20px rgba(244, 111, 5, 0.2), 0 0 0 40px rgba(244, 111, 5, 0.1), 0 0 0 60px rgba(244, 111, 5, 0); } }
+
+.item-moveOne {
+  -webkit-animation: moveOne 15s infinite ease-in-out;
+  animation: moveOne 15s infinite ease-in-out; }
+
+@-webkit-keyframes moveOne {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); }
+  50% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px); }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); } }
+
+@keyframes moveOne {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); }
+  50% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px); }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); } }
+
+.item-moveTwo {
+  -webkit-animation: moveTwo 15s infinite ease-in-out;
+  animation: moveTwo 15s infinite ease-in-out; }
+
+@-webkit-keyframes moveTwo {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); }
+  50% {
+    -webkit-transform: translate(-50px, 50px);
+    transform: translate(-50px, 50px); }
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); } }
+
+@keyframes moveTwo {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); }
+  50% {
+    -webkit-transform: translate(-50px, 50px);
+    transform: translate(-50px, 50px); }
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); } }
+
+.padding-top-10 {
+  padding-top: 10px; }
+
+.padding-top-20 {
+  padding-top: 20px; }
+
+.padding-top-30 {
+  padding-top: 30px; }
+
+.padding-top-40 {
+  padding-top: 40px; }
+
+.padding-top-50 {
+  padding-top: 50px; }
+
+.padding-top-60 {
+  padding-top: 60px; }
+
+.padding-top-70 {
+  padding-top: 70px; }
+
+.padding-top-80 {
+  padding-top: 80px; }
+
+.padding-top-90 {
+  padding-top: 90px; }
+
+.padding-top-100 {
+  padding-top: 100px; }
+  @media (max-width: 767.98px) {
+    .padding-top-100 {
+      padding-top: 60px; } }
+
+.padding-top-105 {
+  padding-top: 105px; }
+  @media (max-width: 767.98px) {
+    .padding-top-105 {
+      padding-top: 65px; } }
+
+.padding-top-110 {
+  padding-top: 110px; }
+  @media (max-width: 767.98px) {
+    .padding-top-110 {
+      padding-top: 70px; } }
+
+.padding-top-115 {
+  padding-top: 115px; }
+  @media (max-width: 767.98px) {
+    .padding-top-115 {
+      padding-top: 75px; } }
+
+.padding-top-120 {
+  padding-top: 120px; }
+  @media (max-width: 767.98px) {
+    .padding-top-120 {
+      padding-top: 80px; } }
+
+.padding-bottom-10 {
+  padding-bottom: 10px; }
+
+.padding-bottom-20 {
+  padding-bottom: 20px; }
+
+.padding-bottom-30 {
+  padding-bottom: 30px; }
+
+.padding-bottom-40 {
+  padding-bottom: 40px; }
+
+.padding-bottom-50 {
+  padding-bottom: 50px; }
+
+.padding-bottom-60 {
+  padding-bottom: 60px; }
+
+.padding-bottom-70 {
+  padding-bottom: 70px; }
+
+.padding-bottom-80 {
+  padding-bottom: 80px; }
+
+.padding-bottom-90 {
+  padding-bottom: 90px; }
+  @media (max-width: 767.98px) {
+    .padding-bottom-90 {
+      padding-bottom: 50px; } }
+
+.padding-bottom-100 {
+  padding-bottom: 100px; }
+  @media (max-width: 767.98px) {
+    .padding-bottom-100 {
+      padding-bottom: 60px; } }
+
+.padding-bottom-105 {
+  padding-bottom: 105px; }
+  @media (max-width: 767.98px) {
+    .padding-bottom-105 {
+      padding-bottom: 65px; } }
+
+.padding-bottom-110 {
+  padding-bottom: 110px; }
+  @media (max-width: 767.98px) {
+    .padding-bottom-110 {
+      padding-bottom: 70px; } }
+
+.padding-bottom-115 {
+  padding-bottom: 115px; }
+  @media (max-width: 767.98px) {
+    .padding-bottom-115 {
+      padding-bottom: 75px; } }
+
+.padding-bottom-120 {
+  padding-bottom: 120px; }
+  @media (max-width: 767.98px) {
+    .padding-bottom-120 {
+      padding-bottom: 80px; } }
+
+.padding-10 {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.padding-20 {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.padding-30 {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.padding-40 {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.padding-50 {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.padding-60 {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.padding-70 {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
+.padding-80 {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+.padding-90 {
+  padding-top: 90px;
+  padding-bottom: 90px; }
+
+.padding-100 {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+.padding-105 {
+  padding-top: 105px;
+  padding-bottom: 105px; }
+
+.padding-115 {
+  padding-top: 115px;
+  padding-bottom: 115px; }
+
+.padding-120 {
+  padding-top: 120px;
+  padding-bottom: 120px; }
+  @media (max-width: 767.98px) {
+    .padding-120 {
+      padding-top: 80px;
+      padding-bottom: 80px; } }
+
+.margin-top-10 {
+  margin-top: 10px; }
+
+.margin-top-20 {
+  margin-top: 20px; }
+
+.margin-top-30 {
+  margin-top: 30px; }
+
+.margin-top-40 {
+  margin-top: 40px; }
+
+.margin-top-50 {
+  margin-top: 50px; }
+
+.margin-top-60 {
+  margin-top: 60px; }
+
+.margin-top-70 {
+  margin-top: 70px; }
+
+.margin-top-80 {
+  margin-top: 80px; }
+
+.margin-top-90 {
+  margin-top: 90px; }
+
+.margin-top-100 {
+  margin-top: 100px; }
+
+.margin-bottom-10 {
+  margin-bottom: 10px; }
+
+.margin-bottom-20 {
+  margin-bottom: 20px; }
+
+.margin-bottom-30 {
+  margin-bottom: 30px; }
+
+.margin-bottom-40 {
+  margin-bottom: 40px; }
+
+.margin-bottom-50 {
+  margin-bottom: 50px; }
+
+.margin-bottom-60 {
+  margin-bottom: 60px; }
+
+.margin-bottom-70 {
+  margin-bottom: 70px; }
+
+.margin-bottom-80 {
+  margin-bottom: 80px; }
+
+.margin-bottom-90 {
+  margin-bottom: 90px; }
+
+.margin-bottom-100 {
+  margin-bottom: 100px; }
+
+.margin-10 {
+  margin: 10px 0; }
+
+.margin-20 {
+  margin: 10px 0; }
+
+.margin-30 {
+  margin: 10px 0; }
+
+.margin-40 {
+  margin: 10px 0; }
+
+.margin-50 {
+  margin: 10px 0; }
+
+.margin-60 {
+  margin: 10px 0; }
+
+.margin-70 {
+  margin: 10px 0; }
+
+.margin-80 {
+  margin: 10px 0; }
+
+.margin-90 {
+  margin: 10px 0; }
+
+.margin-100 {
+  margin: 10px 0; }
+
+/* theme */
+.part-1 {
+  background-color: #253c7e;
+  padding: 100px 0 50px; }
+  .part-1 .first-content {
+    text-align: center; }
+    .part-1 .first-content h1 {
+      color: #ffffff;
+      font-size: 80px;
+      font-family: "Avenir Next LT Pro";
+      font-weight: 700; }
+      .part-1 .first-content h1 span {
+        font-weight: 400; }
+  .part-1 .second-content {
+    margin: 100px 120px 0; }
+    .part-1 .second-content h5 {
+      color: #ffffff;
+      font-size: 40px;
+      font-family: "Avenir Next LT Pro";
+      font-weight: 700;
+      margin-bottom: 30px; }
+    .part-1 .second-content ul li {
+      color: #ffffff;
+      font-size: 40px;
+      font-family: "Avenir Next LT Pro";
+      position: relative;
+      padding-left: 30px;
+      margin-bottom: 20px; }
+      .part-1 .second-content ul li::before {
+        content: '';
+        position: absolute;
+        top: 25px;
+        left: 0;
+        width: 15px;
+        height: 15px;
+        background-color: #ffffff;
+        border-radius: 50%; }
+    .part-1 .second-content p {
+      color: #ffffff;
+      font-size: 40px;
+      font-family: "Avenir Next LT Pro"; }
+  .part-1 .third-content {
+    margin: 40px 0; }
+    .part-1 .third-content .main-content {
+      padding: 60px 0;
+      position: relative;
+      width: 60%;
+      margin: auto; }
+      .part-1 .third-content .main-content h2 {
+        color: #ffffff;
+        font-size: 90px;
+        font-family: "Avenir Next LT Pro";
+        font-weight: 700;
+        text-shadow: 1px 1px #606598, 2px 2px #606598, 3px 3px #606598, 4px 4px #606598, 5px 5px #606598, 6px 6px #606598, 7px 7px 5px rgba(96, 101, 152, 0.5);
+        text-align: right; }
+      .part-1 .third-content .main-content .shape-image {
+        position: absolute;
+        top: 0;
+        right: -150px;
+        width: auto;
+        height: auto; }
+  .part-1 .fourth-area {
+    background-color: #ffffff;
+    padding: 0 40px 40px;
+    margin-top: 100px; }
+    .part-1 .fourth-area .brand-part .single-brand {
+      margin-bottom: 30px; }
+      .part-1 .fourth-area .brand-part .single-brand img {
+        width: 270px;
+        margin: auto; }
+        .part-1 .fourth-area .brand-part .single-brand img.img-1 {
+          width: 230px; }
+    .part-1 .fourth-area .style-box {
+      background-image: url("../images/fourth-area-bg.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+      .part-1 .fourth-area .style-box .product-area .title-top {
+        padding: 100px 0;
+        position: relative;
+        width: 65%;
+        margin: 40px auto 0; }
+        .part-1 .fourth-area .style-box .product-area .title-top h2 {
+          color: #ffffff;
+          font-size: 150px;
+          font-family: "Avenir Next LT Pro";
+          font-weight: 700;
+          text-shadow: 1px 1px #ac76a9, 2px 2px #ac76a9, 3px 3px #ac76a9, 4px 4px #ac76a9, 5px 5px #ac76a9, 6px 6px #606598, 7px 7px 5px rgba(172, 118, 169, 0.5);
+          text-align: right;
+          text-transform: uppercase;
+          line-height: .8em; }
+          .part-1 .fourth-area .style-box .product-area .title-top h2 span {
+            font-size: 120px; }
+        .part-1 .fourth-area .style-box .product-area .title-top h4 {
+          color: #ffffff;
+          font-size: 50px;
+          font-family: "Avenir Next LT Pro";
+          font-weight: 400;
+          text-align: right;
+          margin-right: 250px; }
+        .part-1 .fourth-area .style-box .product-area .title-top .shape-image {
+          position: absolute;
+          top: 0;
+          right: -150px;
+          width: auto;
+          height: 90%; }
+      .part-1 .fourth-area .style-box .product-area .product-images img {
+        width: 65%;
+        margin: auto; }
+      .part-1 .fourth-area .style-box .promotion-part .title-top {
+        width: 80%;
+        margin: 0 auto 50px; }
+        .part-1 .fourth-area .style-box .promotion-part .title-top h3 {
+          font-size: 60px;
+          font-family: "Avenir Next LT Pro";
+          font-weight: 600;
+          color: #742b8f;
+          text-transform: uppercase; }
+      .part-1 .fourth-area .style-box .promotion-part .promotion-box {
+        width: 70%;
+        margin: auto; }
+        .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion {
+          text-align: center;
+          background-image: url("../images/shape-3.png");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 100% 100%;
+          padding: 20px 10px 60px;
+          margin-bottom: 40px; }
+          .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h6 {
+            color: #742b8f;
+            font-size: 35px;
+            font-family: "Avenir Next LT Pro";
+            font-weight: 600; }
+            .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h6 span {
+              font-weight: 400; }
+          .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h2 {
+            color: #742b8f;
+            font-size: 200px;
+            font-family: "Avenir Next LT Pro";
+            font-weight: 700;
+            letter-spacing: -30px;
+            line-height: 180px; }
+            .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h2 span.number-style {
+              position: relative;
+              top: 20px; }
+            .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h2 span.percentage {
+              font-size: 60px;
+              font-weight: 500;
+              display: inline-block;
+              margin-left: 30px;
+              position: relative;
+              top: -40px; }
+          .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h5 {
+            color: #742b8f;
+            font-size: 50px;
+            font-family: "Avenir Next LT Pro";
+            font-weight: 500;
+            position: relative;
+            top: -40px; }
+      .part-1 .fourth-area .style-box .refund-part .title-top {
+        width: 70%;
+        margin: auto; }
+        .part-1 .fourth-area .style-box .refund-part .title-top h3 {
+          font-size: 60px;
+          font-family: "Avenir Next LT Pro";
+          font-weight: 600;
+          color: #742b8f;
+          text-transform: uppercase; }
+      .part-1 .fourth-area .style-box .refund-part .refund-box {
+        width: 70%;
+        margin: 10px auto 0; }
+        .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund {
+          text-align: center;
+          margin-bottom: 40px; }
+          .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund .img-box {
+            height: 180px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-item-align: center;
+            align-self: center; }
+            .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund .img-box .icon-image {
+              margin: auto; }
+              .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund .img-box .icon-image.img-1 {
+                width: 140px; }
+              .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund .img-box .icon-image.img-2 {
+                width: 200px; }
+              .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund .img-box .icon-image.img-3 {
+                width: 90px; }
+              .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund .img-box .icon-image.img-4 {
+                width: 160px; }
+          .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund p {
+            font-size: 18px;
+            font-family: "Avenir Next LT Pro";
+            font-weight: 400;
+            color: #742b8f; }
+      .part-1 .fourth-area .style-box .disclaimer-part {
+        width: 95%;
+        margin: auto; }
+        .part-1 .fourth-area .style-box .disclaimer-part p {
+          color: #8e8f91;
+          font-size: 24px;
+          font-family: "Avenir Next LT Pro";
+          font-weight: 400; }
+      .part-1 .fourth-area .style-box .footer-part {
+        padding: 20px 0;
+        text-align: center; }
+        .part-1 .fourth-area .style-box .footer-part h5 {
+          color: #742b8f;
+          font-size: 24px;
+          font-family: "Avenir Next LT Pro";
+          font-weight: 700; }
+          .part-1 .fourth-area .style-box .footer-part h5 span {
+            font-weight: 400; }

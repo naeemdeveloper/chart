@@ -1,0 +1,33 @@
+/*-------------------------------------------------------------
+theme name: Chart
+theme uri: 
+author: gol_lukas
+author uri: 
+description: 
+tags: 
+version: 1.0.0
+text domain: 
+-------------------------------------------------------------*/
+
+// setting
+@import 'settings/variable';
+@import 'settings/mixin';
+
+// base
+@import 'base/base';
+
+// layout
+@import 'layout/navbar';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/breadcrumb';
+
+// module
+@import 'module/preloader';
+@import 'module/button';
+@import 'module/form';
+@import 'module/accordion';
+
+// theme 
+@import 'theme/default';
+@import 'theme/theme';

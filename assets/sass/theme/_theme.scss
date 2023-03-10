@@ -1,0 +1,287 @@
+/* theme */
+.part-1 {
+    background-color: $part-1-color;
+    padding: 100px 0 50px;
+    .first-content {
+        text-align: center;
+        h1 {
+            color: $white-color;
+            font-size: 80px;
+            font-family: $avenir;
+            font-weight: 700;
+            span {
+                font-weight: 400;
+            }
+        }
+    }
+
+    .second-content {
+        margin: 100px 120px 0;
+        h5 {
+            color: $white-color;
+            font-size: 40px;
+            font-family: $avenir;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+        ul {
+            li {
+                color: $white-color;
+                font-size: 40px;
+                font-family: $avenir;
+                position: relative;
+                padding-left: 30px;
+                margin-bottom: 20px;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 25px;
+                    left: 0;
+                    width: 15px;
+                    height: 15px;
+                    background-color: $white-color;
+                    border-radius: 50%;
+                }
+            }
+        }
+        p {
+            color: $white-color;
+            font-size: 40px;
+            font-family: $avenir;
+        }
+    }
+
+    .third-content {
+        margin: 40px 0;
+        .main-content {
+            padding: 60px 0;
+            position: relative;
+            width: 60%;
+            margin: auto;
+            h2 {
+                color: $white-color;
+                font-size: 90px;
+                font-family: $avenir;
+                font-weight: 700;
+                text-shadow: 1px 1px #606598, 2px 2px #606598, 3px 3px #606598, 4px 4px #606598, 5px 5px #606598, 6px 6px #606598, 7px 7px 5px rgba(96, 101, 152, .5);
+                text-align: right;
+            }
+            .shape-image {
+                position: absolute;
+                top: 0;
+                right: -150px;
+                width: auto;
+                height: auto;
+            }
+        }        
+    }
+
+    .fourth-area {
+        background-color: $white-color;
+        padding: 0 40px 40px;
+        margin-top: 100px;
+
+        .brand-part {
+            .single-brand {
+                margin-bottom: 30px;
+                img {
+                    width: 270px;
+                    margin: auto;
+                    &.img-1 {
+                        width: 230px;
+                    }
+                }
+            }
+        }
+
+        .style-box {
+            background-image: url('../images/fourth-area-bg.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            
+            .product-area {
+                .title-top {
+                    padding: 100px 0;
+                    position: relative;
+                    width: 65%;
+                    margin: 40px auto 0; 
+                    h2 {
+                        color: $white-color;
+                        font-size: 150px;
+                        font-family: $avenir;
+                        font-weight: 700;
+                        text-shadow: 1px 1px #ac76a9, 2px 2px #ac76a9, 3px 3px #ac76a9, 4px 4px #ac76a9, 5px 5px #ac76a9, 6px 6px #606598, 7px 7px 5px rgba(172, 118, 169, .5);
+                        text-align: right;
+                        text-transform: uppercase;
+                        line-height: .8em;
+                        span {
+                            font-size: 120px;
+                        }
+                    }
+                    h4 {
+                        color: $white-color;
+                        font-size: 50px;
+                        font-family: $avenir;
+                        font-weight: 400;
+                        text-align: right;
+                        margin-right: 250px;
+                    }
+                    .shape-image {
+                        position: absolute;
+                        top: 0;
+                        right: -150px;
+                        width: auto;
+                        height: 90%;
+                    }
+                }
+                .product-images {
+                    img {
+                        width: 65%;
+                        margin: auto;
+                    }
+                } 
+            }
+
+            .promotion-part {
+                .title-top {
+                    width: 80%;
+                    margin: 0 auto 50px;
+                    h3 {
+                        font-size: 60px;
+                        font-family: $avenir;
+                        font-weight: 600;
+                        color: #742b8f;
+                        text-transform: uppercase;
+                    }
+                }
+
+                .promotion-box {
+                    width: 70%;
+                    margin: auto;
+                    .single-promotion {
+                        text-align: center;
+                        background-image: url('../images/shape-3.png');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: 100% 100%;
+                        padding: 20px 10px 60px;
+                        margin-bottom: 40px;
+                        h6 {
+                            color: #742b8f;
+                            font-size: 35px;
+                            font-family: $avenir;
+                            font-weight: 600;
+                            span {
+                                font-weight: 400;
+                            }
+                        }
+                        h2 {
+                            color: #742b8f;
+                            font-size: 200px;
+                            font-family: $avenir;
+                            font-weight: 700;
+                            letter-spacing: -30px;
+                            line-height: 180px;
+                            span.number-style {
+                                position: relative;
+                                top: 20px;
+                            }
+                            span.percentage {
+                                font-size: 60px;
+                                font-weight: 500;
+                                display: inline-block;
+                                margin-left: 30px;
+                                position: relative;
+                                top: -40px;
+                            }
+                        }
+                        h5 {
+                            color: #742b8f;
+                            font-size: 50px;
+                            font-family: $avenir;
+                            font-weight: 500;
+                            position: relative;
+                            top: -40px;
+                        }
+                    }
+                }
+            }
+
+            .refund-part {
+                .title-top {
+                    width: 70%;
+                    margin: auto;
+                    h3 {
+                        font-size: 60px;
+                        font-family: $avenir;
+                        font-weight: 600;
+                        color: #742b8f;
+                        text-transform: uppercase;
+                    }
+                }
+
+                .refund-box {
+                    width: 70%;
+                    margin: 10px auto 0;
+                    .single-refund {
+                        text-align: center;
+                        margin-bottom: 40px;
+                        .img-box {
+                            height: 180px;
+                            display: flex;
+                            align-self: center;
+                            .icon-image {
+                                margin: auto;
+                                &.img-1 {
+                                    width: 140px;
+                                }
+                                &.img-2 {
+                                    width: 200px;
+                                }
+                                &.img-3 {
+                                    width: 90px;
+                                }
+                                &.img-4 {
+                                    width: 160px;
+                                }
+                            }
+                        }
+                        p {
+                            font-size: 18px;
+                            font-family: $avenir;
+                            font-weight: 400;
+                            color: #742b8f;
+                        }
+                    }
+                    
+                }            
+            }
+
+            .disclaimer-part {
+                width: 95%;
+                margin: auto;
+                p {
+                    color: #8e8f91;
+                    font-size: 24px;
+                    font-family: $avenir;
+                    font-weight: 400;
+                }
+            }
+
+            .footer-part {
+                padding: 20px 0;
+                text-align: center;
+                h5 {
+                    color: #742b8f;
+                    font-size: 24px;
+                    font-family: $avenir;
+                    font-weight: 700;
+                    span {
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}
