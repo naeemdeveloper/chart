@@ -4,6 +4,9 @@
     margin: auto;
     padding: 0 50px;
     overflow: hidden;
+    @include portrait-phone {
+        padding: 0 20px;
+    }
 }
 
 .back-to-top {

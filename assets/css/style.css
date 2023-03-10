@@ -65,6 +65,9 @@ img {
   margin: auto;
   padding: 0 50px;
   overflow: hidden; }
+  @media (max-width: 575.98px) {
+    .custom-container {
+      padding: 0 20px; } }
 
 .back-to-top {
   position: fixed;
@@ -511,6 +514,9 @@ img {
 .part-1 {
   background-color: #253c7e;
   padding: 100px 0 50px; }
+  @media (max-width: 767.98px) {
+    .part-1 {
+      padding: 50px 0; } }
   .part-1 .first-content {
     text-align: center; }
     .part-1 .first-content h1 {
@@ -518,16 +524,50 @@ img {
       font-size: 80px;
       font-family: "Avenir Next LT Pro";
       font-weight: 700; }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .part-1 .first-content h1 {
+          font-size: 50px; } }
+      @media (max-width: 767.98px) {
+        .part-1 .first-content h1 {
+          font-size: 40px; } }
       .part-1 .first-content h1 span {
         font-weight: 400; }
   .part-1 .second-content {
     margin: 100px 120px 0; }
+    @media (min-width: 1200px) and (max-width: 1399.98px) {
+      .part-1 .second-content {
+        margin: 100px 50px 0; } }
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      .part-1 .second-content {
+        margin: 100px 50px 0; } }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .part-1 .second-content {
+        margin: 50px 20px 0; } }
+    @media (max-width: 767.98px) {
+      .part-1 .second-content {
+        margin: 40px 20px 0; } }
+    @media (max-width: 360px) {
+      .part-1 .second-content {
+        margin: 40px 0 0; } }
     .part-1 .second-content h5 {
       color: #ffffff;
       font-size: 40px;
       font-family: "Avenir Next LT Pro";
       font-weight: 700;
       margin-bottom: 30px; }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .part-1 .second-content h5 {
+          font-size: 30px; } }
+      @media (max-width: 767.98px) {
+        .part-1 .second-content h5 {
+          font-size: 24px;
+          margin-bottom: 20px; } }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .part-1 .second-content ul {
+        margin-bottom: 40px; } }
+    @media (max-width: 767.98px) {
+      .part-1 .second-content ul {
+        margin-bottom: 40px; } }
     .part-1 .second-content ul li {
       color: #ffffff;
       font-size: 40px;
@@ -535,6 +575,12 @@ img {
       position: relative;
       padding-left: 30px;
       margin-bottom: 20px; }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .part-1 .second-content ul li {
+          font-size: 30px; } }
+      @media (max-width: 767.98px) {
+        .part-1 .second-content ul li {
+          font-size: 24px; } }
       .part-1 .second-content ul li::before {
         content: '';
         position: absolute;
@@ -548,6 +594,12 @@ img {
       color: #ffffff;
       font-size: 40px;
       font-family: "Avenir Next LT Pro"; }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .part-1 .second-content p {
+          font-size: 30px; } }
+      @media (max-width: 767.98px) {
+        .part-1 .second-content p {
+          font-size: 24px; } }
   .part-1 .third-content {
     margin: 40px 0; }
     .part-1 .third-content .main-content {
@@ -555,6 +607,26 @@ img {
       position: relative;
       width: 60%;
       margin: auto; }
+      @media (min-width: 1400px) and (max-width: 1919.98px) {
+        .part-1 .third-content .main-content {
+          width: 80%; } }
+      @media (min-width: 1200px) and (max-width: 1399.98px) {
+        .part-1 .third-content .main-content {
+          width: 100%; } }
+      @media (min-width: 992px) and (max-width: 1199.98px) {
+        .part-1 .third-content .main-content {
+          width: 100%; } }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .part-1 .third-content .main-content {
+          width: 100%;
+          padding: 30px 0; } }
+      @media (max-width: 767.98px) {
+        .part-1 .third-content .main-content {
+          width: 100%;
+          padding: 30px 0; } }
+      @media (max-width: 360px) {
+        .part-1 .third-content .main-content {
+          padding: 0; } }
       .part-1 .third-content .main-content h2 {
         color: #ffffff;
         font-size: 90px;
@@ -562,33 +634,118 @@ img {
         font-weight: 700;
         text-shadow: 1px 1px #606598, 2px 2px #606598, 3px 3px #606598, 4px 4px #606598, 5px 5px #606598, 6px 6px #606598, 7px 7px 5px rgba(96, 101, 152, 0.5);
         text-align: right; }
+        @media (min-width: 1200px) and (max-width: 1399.98px) {
+          .part-1 .third-content .main-content h2 {
+            text-align: left; } }
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          .part-1 .third-content .main-content h2 {
+            text-align: left;
+            font-size: 70px; } }
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          .part-1 .third-content .main-content h2 {
+            text-align: left;
+            font-size: 50px; } }
+        @media (max-width: 767.98px) {
+          .part-1 .third-content .main-content h2 {
+            text-align: left;
+            font-size: 40px; } }
       .part-1 .third-content .main-content .shape-image {
         position: absolute;
         top: 0;
         right: -150px;
         width: auto;
         height: auto; }
+        @media (min-width: 1200px) and (max-width: 1399.98px) {
+          .part-1 .third-content .main-content .shape-image {
+            right: 0; } }
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          .part-1 .third-content .main-content .shape-image {
+            right: 0;
+            height: 90%; } }
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          .part-1 .third-content .main-content .shape-image {
+            right: 0;
+            height: 90%; } }
+        @media (max-width: 767.98px) {
+          .part-1 .third-content .main-content .shape-image {
+            right: 0;
+            height: 90%; } }
+        @media (max-width: 575.98px) {
+          .part-1 .third-content .main-content .shape-image {
+            display: none; } }
   .part-1 .fourth-area {
     background-color: #ffffff;
     padding: 0 40px 40px;
     margin-top: 100px; }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .part-1 .fourth-area {
+        margin-top: 70px; } }
+    @media (max-width: 767.98px) {
+      .part-1 .fourth-area {
+        margin-top: 50px; } }
+    @media (max-width: 360px) {
+      .part-1 .fourth-area {
+        padding: 0 20px 20px; } }
     .part-1 .fourth-area .brand-part .single-brand {
       margin-bottom: 30px; }
       .part-1 .fourth-area .brand-part .single-brand img {
         width: 270px;
         margin: auto; }
+        @media (min-width: 1200px) and (max-width: 1399.98px) {
+          .part-1 .fourth-area .brand-part .single-brand img {
+            width: 220px; } }
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          .part-1 .fourth-area .brand-part .single-brand img {
+            width: 160px; } }
+        @media (max-width: 767.98px) {
+          .part-1 .fourth-area .brand-part .single-brand img {
+            width: 150px; } }
         .part-1 .fourth-area .brand-part .single-brand img.img-1 {
           width: 230px; }
+          @media (min-width: 1200px) and (max-width: 1399.98px) {
+            .part-1 .fourth-area .brand-part .single-brand img.img-1 {
+              width: 200px; } }
+          @media (min-width: 992px) and (max-width: 1199.98px) {
+            .part-1 .fourth-area .brand-part .single-brand img.img-1 {
+              width: 160px; } }
+          @media (max-width: 767.98px) {
+            .part-1 .fourth-area .brand-part .single-brand img.img-1 {
+              width: 150px; } }
     .part-1 .fourth-area .style-box {
       background-image: url("../images/fourth-area-bg.png");
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover; }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .part-1 .fourth-area .style-box {
+          background-image: none; } }
+      @media (max-width: 767.98px) {
+        .part-1 .fourth-area .style-box {
+          background-image: none; } }
       .part-1 .fourth-area .style-box .product-area .title-top {
         padding: 100px 0;
         position: relative;
         width: 65%;
         margin: 40px auto 0; }
+        @media (min-width: 1400px) and (max-width: 1919.98px) {
+          .part-1 .fourth-area .style-box .product-area .title-top {
+            width: 60%; } }
+        @media (min-width: 1200px) and (max-width: 1399.98px) {
+          .part-1 .fourth-area .style-box .product-area .title-top {
+            width: 70%; } }
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          .part-1 .fourth-area .style-box .product-area .title-top {
+            width: 70%; } }
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          .part-1 .fourth-area .style-box .product-area .title-top {
+            width: 90%;
+            padding: 50px 0;
+            margin: 0 auto 0; } }
+        @media (max-width: 767.98px) {
+          .part-1 .fourth-area .style-box .product-area .title-top {
+            width: 90%;
+            padding: 50px 0;
+            margin: 0 auto 0; } }
         .part-1 .fourth-area .style-box .product-area .title-top h2 {
           color: #ffffff;
           font-size: 150px;
@@ -598,8 +755,42 @@ img {
           text-align: right;
           text-transform: uppercase;
           line-height: .8em; }
+          @media (min-width: 1400px) and (max-width: 1919.98px) {
+            .part-1 .fourth-area .style-box .product-area .title-top h2 {
+              font-size: 100px; } }
+          @media (min-width: 1200px) and (max-width: 1399.98px) {
+            .part-1 .fourth-area .style-box .product-area .title-top h2 {
+              font-size: 100px; } }
+          @media (min-width: 992px) and (max-width: 1199.98px) {
+            .part-1 .fourth-area .style-box .product-area .title-top h2 {
+              font-size: 80px; } }
+          @media (min-width: 768px) and (max-width: 991.98px) {
+            .part-1 .fourth-area .style-box .product-area .title-top h2 {
+              font-size: 60px;
+              text-align: left;
+              color: #742b8f; } }
+          @media (max-width: 767.98px) {
+            .part-1 .fourth-area .style-box .product-area .title-top h2 {
+              font-size: 50px;
+              text-align: left;
+              color: #742b8f; } }
           .part-1 .fourth-area .style-box .product-area .title-top h2 span {
             font-size: 120px; }
+            @media (min-width: 1400px) and (max-width: 1919.98px) {
+              .part-1 .fourth-area .style-box .product-area .title-top h2 span {
+                font-size: 70px; } }
+            @media (min-width: 1200px) and (max-width: 1399.98px) {
+              .part-1 .fourth-area .style-box .product-area .title-top h2 span {
+                font-size: 70px; } }
+            @media (min-width: 992px) and (max-width: 1199.98px) {
+              .part-1 .fourth-area .style-box .product-area .title-top h2 span {
+                font-size: 60px; } }
+            @media (min-width: 768px) and (max-width: 991.98px) {
+              .part-1 .fourth-area .style-box .product-area .title-top h2 span {
+                font-size: 40px; } }
+            @media (max-width: 767.98px) {
+              .part-1 .fourth-area .style-box .product-area .title-top h2 span {
+                font-size: 40px; } }
         .part-1 .fourth-area .style-box .product-area .title-top h4 {
           color: #ffffff;
           font-size: 50px;
@@ -607,27 +798,115 @@ img {
           font-weight: 400;
           text-align: right;
           margin-right: 250px; }
+          @media (min-width: 1400px) and (max-width: 1919.98px) {
+            .part-1 .fourth-area .style-box .product-area .title-top h4 {
+              font-size: 40px;
+              margin-right: 150px; } }
+          @media (min-width: 1200px) and (max-width: 1399.98px) {
+            .part-1 .fourth-area .style-box .product-area .title-top h4 {
+              font-size: 40px;
+              margin-right: 150px; } }
+          @media (min-width: 992px) and (max-width: 1199.98px) {
+            .part-1 .fourth-area .style-box .product-area .title-top h4 {
+              font-size: 30px;
+              margin-right: 150px; } }
+          @media (min-width: 768px) and (max-width: 991.98px) {
+            .part-1 .fourth-area .style-box .product-area .title-top h4 {
+              font-size: 20px;
+              margin-right: 0;
+              text-align: left; } }
+          @media (max-width: 767.98px) {
+            .part-1 .fourth-area .style-box .product-area .title-top h4 {
+              font-size: 20px;
+              margin-right: 0;
+              text-align: left; } }
         .part-1 .fourth-area .style-box .product-area .title-top .shape-image {
           position: absolute;
           top: 0;
           right: -150px;
           width: auto;
           height: 90%; }
+          @media (min-width: 992px) and (max-width: 1199.98px) {
+            .part-1 .fourth-area .style-box .product-area .title-top .shape-image {
+              right: -120px; } }
+          @media (min-width: 768px) and (max-width: 991.98px) {
+            .part-1 .fourth-area .style-box .product-area .title-top .shape-image {
+              right: 0px;
+              height: 70%;
+              top: 20px; } }
+          @media (max-width: 767.98px) {
+            .part-1 .fourth-area .style-box .product-area .title-top .shape-image {
+              right: -20px;
+              height: 70%;
+              top: 20px; } }
+          @media (max-width: 575.98px) {
+            .part-1 .fourth-area .style-box .product-area .title-top .shape-image {
+              display: none; } }
       .part-1 .fourth-area .style-box .product-area .product-images img {
         width: 65%;
         margin: auto; }
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          .part-1 .fourth-area .style-box .product-area .product-images img {
+            width: 80%; } }
+        @media (max-width: 767.98px) {
+          .part-1 .fourth-area .style-box .product-area .product-images img {
+            width: 90%; } }
       .part-1 .fourth-area .style-box .promotion-part .title-top {
         width: 80%;
         margin: 0 auto 50px; }
+        @media (min-width: 1200px) and (max-width: 1399.98px) {
+          .part-1 .fourth-area .style-box .promotion-part .title-top {
+            width: 100%; } }
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          .part-1 .fourth-area .style-box .promotion-part .title-top {
+            width: 100%; } }
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          .part-1 .fourth-area .style-box .promotion-part .title-top {
+            width: 100%; } }
+        @media (max-width: 767.98px) {
+          .part-1 .fourth-area .style-box .promotion-part .title-top {
+            width: 100%; } }
         .part-1 .fourth-area .style-box .promotion-part .title-top h3 {
           font-size: 60px;
           font-family: "Avenir Next LT Pro";
           font-weight: 600;
           color: #742b8f;
           text-transform: uppercase; }
+          @media (min-width: 1400px) and (max-width: 1919.98px) {
+            .part-1 .fourth-area .style-box .promotion-part .title-top h3 {
+              font-size: 40px; } }
+          @media (min-width: 1200px) and (max-width: 1399.98px) {
+            .part-1 .fourth-area .style-box .promotion-part .title-top h3 {
+              font-size: 40px; } }
+          @media (min-width: 992px) and (max-width: 1199.98px) {
+            .part-1 .fourth-area .style-box .promotion-part .title-top h3 {
+              font-size: 40px; } }
+          @media (min-width: 768px) and (max-width: 991.98px) {
+            .part-1 .fourth-area .style-box .promotion-part .title-top h3 {
+              font-size: 30px;
+              margin-top: 20px; } }
+          @media (max-width: 767.98px) {
+            .part-1 .fourth-area .style-box .promotion-part .title-top h3 {
+              font-size: 30px;
+              margin-top: 20px; } }
       .part-1 .fourth-area .style-box .promotion-part .promotion-box {
         width: 70%;
         margin: auto; }
+        @media (min-width: 1400px) and (max-width: 1919.98px) {
+          .part-1 .fourth-area .style-box .promotion-part .promotion-box {
+            width: 90%; } }
+        @media (min-width: 1200px) and (max-width: 1399.98px) {
+          .part-1 .fourth-area .style-box .promotion-part .promotion-box {
+            width: 90%; } }
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          .part-1 .fourth-area .style-box .promotion-part .promotion-box {
+            width: 90%; } }
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          .part-1 .fourth-area .style-box .promotion-part .promotion-box {
+            width: 90%; } }
+        @media (max-width: 767.98px) {
+          .part-1 .fourth-area .style-box .promotion-part .promotion-box {
+            width: 90%; } }
         .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion {
           text-align: center;
           background-image: url("../images/shape-3.png");
@@ -641,6 +920,18 @@ img {
             font-size: 35px;
             font-family: "Avenir Next LT Pro";
             font-weight: 600; }
+            @media (min-width: 1200px) and (max-width: 1399.98px) {
+              .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h6 {
+                font-size: 24px; } }
+            @media (min-width: 992px) and (max-width: 1199.98px) {
+              .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h6 {
+                font-size: 24px; } }
+            @media (min-width: 768px) and (max-width: 991.98px) {
+              .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h6 {
+                font-size: 24px; } }
+            @media (max-width: 767.98px) {
+              .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h6 {
+                font-size: 24px; } }
             .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h6 span {
               font-weight: 400; }
           .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h2 {
@@ -650,6 +941,19 @@ img {
             font-weight: 700;
             letter-spacing: -30px;
             line-height: 180px; }
+            @media (min-width: 1200px) and (max-width: 1399.98px) {
+              .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h2 {
+                font-size: 150px; } }
+            @media (min-width: 992px) and (max-width: 1199.98px) {
+              .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h2 {
+                font-size: 120px; } }
+            @media (min-width: 768px) and (max-width: 991.98px) {
+              .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h2 {
+                font-size: 120px; } }
+            @media (max-width: 767.98px) {
+              .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h2 {
+                font-size: 120px;
+                line-height: 150px; } }
             .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h2 span.number-style {
               position: relative;
               top: 20px; }
@@ -660,6 +964,12 @@ img {
               margin-left: 30px;
               position: relative;
               top: -40px; }
+              @media (min-width: 768px) and (max-width: 991.98px) {
+                .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h2 span.percentage {
+                  top: -10px; } }
+              @media (max-width: 767.98px) {
+                .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h2 span.percentage {
+                  top: -10px; } }
           .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h5 {
             color: #742b8f;
             font-size: 50px;
@@ -667,18 +977,75 @@ img {
             font-weight: 500;
             position: relative;
             top: -40px; }
+            @media (min-width: 1200px) and (max-width: 1399.98px) {
+              .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h5 {
+                font-size: 40px; } }
+            @media (min-width: 992px) and (max-width: 1199.98px) {
+              .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h5 {
+                font-size: 35px; } }
+            @media (min-width: 768px) and (max-width: 991.98px) {
+              .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h5 {
+                font-size: 30px; } }
+            @media (max-width: 767.98px) {
+              .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h5 {
+                font-size: 24px;
+                top: -10px; } }
       .part-1 .fourth-area .style-box .refund-part .title-top {
         width: 70%;
         margin: auto; }
+        @media (min-width: 1200px) and (max-width: 1399.98px) {
+          .part-1 .fourth-area .style-box .refund-part .title-top {
+            width: 100%; } }
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          .part-1 .fourth-area .style-box .refund-part .title-top {
+            width: 100%; } }
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          .part-1 .fourth-area .style-box .refund-part .title-top {
+            width: 100%; } }
+        @media (max-width: 767.98px) {
+          .part-1 .fourth-area .style-box .refund-part .title-top {
+            width: 100%; } }
         .part-1 .fourth-area .style-box .refund-part .title-top h3 {
           font-size: 60px;
           font-family: "Avenir Next LT Pro";
           font-weight: 600;
           color: #742b8f;
           text-transform: uppercase; }
+          @media (min-width: 1400px) and (max-width: 1919.98px) {
+            .part-1 .fourth-area .style-box .refund-part .title-top h3 {
+              font-size: 40px; } }
+          @media (min-width: 1200px) and (max-width: 1399.98px) {
+            .part-1 .fourth-area .style-box .refund-part .title-top h3 {
+              font-size: 40px; } }
+          @media (min-width: 992px) and (max-width: 1199.98px) {
+            .part-1 .fourth-area .style-box .refund-part .title-top h3 {
+              font-size: 40px; } }
+          @media (min-width: 768px) and (max-width: 991.98px) {
+            .part-1 .fourth-area .style-box .refund-part .title-top h3 {
+              font-size: 30px;
+              margin-top: 20px; } }
+          @media (max-width: 767.98px) {
+            .part-1 .fourth-area .style-box .refund-part .title-top h3 {
+              font-size: 30px;
+              margin-top: 20px; } }
       .part-1 .fourth-area .style-box .refund-part .refund-box {
         width: 70%;
         margin: 10px auto 0; }
+        @media (min-width: 1400px) and (max-width: 1919.98px) {
+          .part-1 .fourth-area .style-box .refund-part .refund-box {
+            width: 90%; } }
+        @media (min-width: 1200px) and (max-width: 1399.98px) {
+          .part-1 .fourth-area .style-box .refund-part .refund-box {
+            width: 90%; } }
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          .part-1 .fourth-area .style-box .refund-part .refund-box {
+            width: 90%; } }
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          .part-1 .fourth-area .style-box .refund-part .refund-box {
+            width: 90%; } }
+        @media (max-width: 767.98px) {
+          .part-1 .fourth-area .style-box .refund-part .refund-box {
+            width: 90%; } }
         .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund {
           text-align: center;
           margin-bottom: 40px; }
@@ -689,21 +1056,39 @@ img {
             display: flex;
             -ms-flex-item-align: center;
             align-self: center; }
+            @media (min-width: 576px) and (max-width: 767.98px) {
+              .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund .img-box {
+                height: 140px; } }
             .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund .img-box .icon-image {
               margin: auto; }
               .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund .img-box .icon-image.img-1 {
                 width: 140px; }
+                @media (min-width: 576px) and (max-width: 767.98px) {
+                  .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund .img-box .icon-image.img-1 {
+                    width: 100px; } }
               .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund .img-box .icon-image.img-2 {
                 width: 200px; }
+                @media (min-width: 576px) and (max-width: 767.98px) {
+                  .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund .img-box .icon-image.img-2 {
+                    width: 160px; } }
               .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund .img-box .icon-image.img-3 {
                 width: 90px; }
+                @media (min-width: 576px) and (max-width: 767.98px) {
+                  .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund .img-box .icon-image.img-3 {
+                    width: 50px; } }
               .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund .img-box .icon-image.img-4 {
                 width: 160px; }
+                @media (min-width: 576px) and (max-width: 767.98px) {
+                  .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund .img-box .icon-image.img-4 {
+                    width: 120px; } }
           .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund p {
             font-size: 18px;
             font-family: "Avenir Next LT Pro";
             font-weight: 400;
             color: #742b8f; }
+            @media (min-width: 576px) and (max-width: 767.98px) {
+              .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund p {
+                font-size: 16px; } }
       .part-1 .fourth-area .style-box .disclaimer-part {
         width: 95%;
         margin: auto; }
@@ -712,6 +1097,29 @@ img {
           font-size: 24px;
           font-family: "Avenir Next LT Pro";
           font-weight: 400; }
+          @media (min-width: 1400px) and (max-width: 1919.98px) {
+            .part-1 .fourth-area .style-box .disclaimer-part p {
+              font-size: 18px; } }
+          @media (min-width: 1200px) and (max-width: 1399.98px) {
+            .part-1 .fourth-area .style-box .disclaimer-part p {
+              font-size: 16px; } }
+          @media (min-width: 992px) and (max-width: 1199.98px) {
+            .part-1 .fourth-area .style-box .disclaimer-part p {
+              font-size: 13px; } }
+          @media (min-width: 768px) and (max-width: 991.98px) {
+            .part-1 .fourth-area .style-box .disclaimer-part p {
+              font-size: 18px; } }
+          @media (max-width: 767.98px) {
+            .part-1 .fourth-area .style-box .disclaimer-part p {
+              font-size: 18px; } }
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          .part-1 .fourth-area .style-box .disclaimer-part .qr-code {
+            width: 200px;
+            margin-top: 30px; } }
+        @media (max-width: 767.98px) {
+          .part-1 .fourth-area .style-box .disclaimer-part .qr-code {
+            width: 200px;
+            margin-top: 30px; } }
       .part-1 .fourth-area .style-box .footer-part {
         padding: 20px 0;
         text-align: center; }
@@ -720,5 +1128,8 @@ img {
           font-size: 24px;
           font-family: "Avenir Next LT Pro";
           font-weight: 700; }
+          @media (max-width: 575.98px) {
+            .part-1 .fourth-area .style-box .footer-part h5 {
+              font-size: 20px; } }
           .part-1 .fourth-area .style-box .footer-part h5 span {
             font-weight: 400; }

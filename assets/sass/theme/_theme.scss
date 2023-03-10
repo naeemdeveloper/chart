@@ -2,6 +2,9 @@
 .part-1 {
     background-color: $part-1-color;
     padding: 100px 0 50px;
+    @include all-phone {
+        padding: 50px 0;
+    }
     .first-content {
         text-align: center;
         h1 {
@@ -9,6 +12,12 @@
             font-size: 80px;
             font-family: $avenir;
             font-weight: 700;
+            @include tablet {
+                font-size: 50px;
+            }
+            @include all-phone {
+                font-size: 40px;
+            }
             span {
                 font-weight: 400;
             }
@@ -17,14 +26,42 @@
 
     .second-content {
         margin: 100px 120px 0;
+        @include screen-1200 {
+            margin: 100px 50px 0;
+        }
+        @include desktop {
+            margin: 100px 50px 0;
+        }
+        @include tablet {
+            margin: 50px 20px 0;
+        }
+        @include all-phone {
+            margin: 40px 20px 0;
+        }
+        @include screen-360 {
+            margin: 40px 0 0;
+        }
         h5 {
             color: $white-color;
             font-size: 40px;
             font-family: $avenir;
             font-weight: 700;
             margin-bottom: 30px;
+            @include tablet {
+                font-size: 30px;
+            }
+            @include all-phone {
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
         }
         ul {
+            @include tablet {
+                margin-bottom: 40px;
+            }
+            @include all-phone {
+                margin-bottom: 40px;
+            }
             li {
                 color: $white-color;
                 font-size: 40px;
@@ -32,6 +69,12 @@
                 position: relative;
                 padding-left: 30px;
                 margin-bottom: 20px;
+                @include tablet {
+                    font-size: 30px;
+                }
+                @include all-phone {
+                    font-size: 24px;
+                }
                 &::before {
                     content: '';
                     position: absolute;
@@ -48,6 +91,12 @@
             color: $white-color;
             font-size: 40px;
             font-family: $avenir;
+            @include tablet {
+                font-size: 30px;
+            }
+            @include all-phone {
+                font-size: 24px;
+            }
         }
     }
 
@@ -58,6 +107,26 @@
             position: relative;
             width: 60%;
             margin: auto;
+            @include screen-1400 {
+                width: 80%;
+            }
+            @include screen-1200 {
+                width: 100%;
+            }
+            @include desktop {
+                width: 100%;
+            }
+            @include tablet {
+                width: 100%;
+                padding: 30px 0;
+            }
+            @include all-phone {
+                width: 100%;
+                padding: 30px 0;
+            }
+            @include screen-360 {
+                padding: 0;
+            }
             h2 {
                 color: $white-color;
                 font-size: 90px;
@@ -65,6 +134,21 @@
                 font-weight: 700;
                 text-shadow: 1px 1px #606598, 2px 2px #606598, 3px 3px #606598, 4px 4px #606598, 5px 5px #606598, 6px 6px #606598, 7px 7px 5px rgba(96, 101, 152, .5);
                 text-align: right;
+                @include screen-1200 {
+                    text-align: left;
+                }
+                @include desktop {
+                    text-align: left;
+                    font-size: 70px;
+                }
+                @include tablet {
+                    text-align: left;
+                    font-size: 50px;
+                }
+                @include all-phone {
+                    text-align: left;
+                    font-size: 40px;
+                }
             }
             .shape-image {
                 position: absolute;
@@ -72,6 +156,24 @@
                 right: -150px;
                 width: auto;
                 height: auto;
+                @include screen-1200 {
+                    right: 0;
+                }
+                @include desktop {
+                    right: 0;
+                    height: 90%;
+                }
+                @include tablet {
+                    right: 0;
+                    height: 90%;
+                }
+                @include all-phone {
+                    right: 0;
+                    height: 90%;
+                }
+                @include portrait-phone {
+                    display: none;
+                }
             }
         }        
     }
@@ -80,6 +182,15 @@
         background-color: $white-color;
         padding: 0 40px 40px;
         margin-top: 100px;
+        @include tablet {
+            margin-top: 70px;
+        }
+        @include all-phone{
+            margin-top: 50px;
+        }
+        @include screen-360 {
+            padding: 0 20px 20px;
+        }
 
         .brand-part {
             .single-brand {
@@ -87,8 +198,26 @@
                 img {
                     width: 270px;
                     margin: auto;
+                    @include screen-1200 {
+                        width: 220px;
+                    }
+                    @include desktop {
+                        width: 160px;
+                    }
+                    @include all-phone {
+                        width: 150px;
+                    }
                     &.img-1 {
                         width: 230px;
+                        @include screen-1200 {
+                            width: 200px;
+                        }
+                        @include desktop {
+                            width: 160px;
+                        }
+                        @include all-phone {
+                            width: 150px;
+                        }
                     }
                 }
             }
@@ -99,6 +228,12 @@
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
+            @include tablet {
+                background-image: none;
+            }
+            @include all-phone {
+                background-image: none;
+            }
             
             .product-area {
                 .title-top {
@@ -106,6 +241,26 @@
                     position: relative;
                     width: 65%;
                     margin: 40px auto 0; 
+                    @include screen-1400 {
+                        width: 60%;
+                    }
+                    @include screen-1200 {
+                        width: 70%;
+                    }
+                    @include desktop {
+                        width: 70%;
+                    }
+                    @include tablet {
+                        width: 90%;
+                        padding: 50px 0;
+                        margin: 0 auto 0;
+                    }
+                    @include all-phone {
+                        width: 90%;
+                        padding: 50px 0;
+                        margin: 0 auto 0;
+                    }
+
                     h2 {
                         color: $white-color;
                         font-size: 150px;
@@ -115,8 +270,42 @@
                         text-align: right;
                         text-transform: uppercase;
                         line-height: .8em;
+                        @include screen-1400 {
+                            font-size: 100px;
+                        }
+                        @include screen-1200 {
+                            font-size: 100px;
+                        }
+                        @include desktop {
+                            font-size: 80px;
+                        }
+                        @include tablet {
+                            font-size: 60px;
+                            text-align: left;
+                            color: #742b8f;
+                        }
+                        @include all-phone {
+                            font-size: 50px;
+                            text-align: left;
+                            color: #742b8f;
+                        }
                         span {
                             font-size: 120px;
+                            @include screen-1400 {
+                                font-size: 70px;
+                            }
+                            @include screen-1200 {
+                                font-size: 70px;
+                            }
+                            @include desktop {
+                                font-size: 60px;
+                            }
+                            @include tablet {
+                                font-size: 40px;
+                            }
+                            @include all-phone {
+                                font-size: 40px;
+                            }
                         }
                     }
                     h4 {
@@ -126,6 +315,28 @@
                         font-weight: 400;
                         text-align: right;
                         margin-right: 250px;
+                        @include screen-1400 {
+                            font-size: 40px;
+                            margin-right: 150px;
+                        }
+                        @include screen-1200 {
+                            font-size: 40px;
+                            margin-right: 150px;
+                        }
+                        @include desktop {
+                            font-size: 30px;
+                            margin-right: 150px;
+                        }
+                        @include tablet {
+                            font-size: 20px;
+                            margin-right: 0;
+                            text-align: left;
+                        }
+                        @include all-phone {
+                            font-size: 20px;
+                            margin-right: 0;
+                            text-align: left;
+                        }
                     }
                     .shape-image {
                         position: absolute;
@@ -133,12 +344,34 @@
                         right: -150px;
                         width: auto;
                         height: 90%;
+                        @include desktop {
+                            right: -120px;
+                        }
+                        @include tablet {
+                            right: 0px;
+                            height: 70%;
+                            top: 20px;
+                        }
+                        @include all-phone {
+                            right: -20px;
+                            height: 70%;
+                            top: 20px;
+                        }
+                        @include portrait-phone {
+                            display: none;
+                        }
                     }
                 }
                 .product-images {
                     img {
                         width: 65%;
                         margin: auto;
+                        @include tablet {
+                            width: 80%;
+                        }
+                        @include all-phone {
+                            width: 90%;
+                        }
                     }
                 } 
             }
@@ -147,18 +380,62 @@
                 .title-top {
                     width: 80%;
                     margin: 0 auto 50px;
+                    @include screen-1200 {
+                        width: 100%;
+                    }
+                    @include desktop {
+                        width: 100%;
+                    }
+                    @include tablet {
+                        width: 100%;
+                    }
+                    @include all-phone {
+                        width: 100%;
+                    }
                     h3 {
                         font-size: 60px;
                         font-family: $avenir;
                         font-weight: 600;
                         color: #742b8f;
                         text-transform: uppercase;
+                        @include screen-1400 {
+                            font-size: 40px;
+                        }
+                        @include screen-1200 {
+                            font-size: 40px;
+                        }
+                        @include desktop {
+                            font-size: 40px;
+                        }
+                        @include tablet {
+                            font-size: 30px;
+                            margin-top: 20px;
+                        }
+                        @include all-phone {
+                            font-size: 30px;
+                            margin-top: 20px;
+                        }
                     }
                 }
 
                 .promotion-box {
                     width: 70%;
                     margin: auto;
+                    @include screen-1400 {
+                        width: 90%;
+                    }
+                    @include screen-1200 {
+                        width: 90%;
+                    }
+                    @include desktop {
+                        width: 90%;
+                    }
+                    @include tablet {
+                        width: 90%;
+                    }
+                    @include all-phone {
+                        width: 90%;
+                    }
                     .single-promotion {
                         text-align: center;
                         background-image: url('../images/shape-3.png');
@@ -172,6 +449,18 @@
                             font-size: 35px;
                             font-family: $avenir;
                             font-weight: 600;
+                            @include screen-1200 {
+                                font-size: 24px;
+                            }
+                            @include desktop {
+                                font-size: 24px;
+                            }
+                            @include tablet {
+                                font-size: 24px;
+                            }
+                            @include all-phone {
+                                font-size: 24px;
+                            }
                             span {
                                 font-weight: 400;
                             }
@@ -183,6 +472,19 @@
                             font-weight: 700;
                             letter-spacing: -30px;
                             line-height: 180px;
+                            @include screen-1200 {
+                                font-size: 150px;
+                            }
+                            @include desktop {
+                                font-size: 120px;
+                            }
+                            @include tablet {
+                                font-size: 120px;
+                            }
+                            @include all-phone {
+                                font-size: 120px;
+                                line-height: 150px;
+                            }
                             span.number-style {
                                 position: relative;
                                 top: 20px;
@@ -194,6 +496,12 @@
                                 margin-left: 30px;
                                 position: relative;
                                 top: -40px;
+                                @include tablet {
+                                    top: -10px;
+                                }
+                                @include all-phone {
+                                    top: -10px;
+                                }
                             }
                         }
                         h5 {
@@ -203,6 +511,19 @@
                             font-weight: 500;
                             position: relative;
                             top: -40px;
+                            @include screen-1200 {
+                                font-size: 40px;
+                            }
+                            @include desktop {
+                                font-size: 35px;
+                            }
+                            @include tablet {
+                                font-size: 30px;
+                            }
+                            @include all-phone {
+                                font-size: 24px;
+                                top: -10px;
+                            }
                         }
                     }
                 }
@@ -212,18 +533,62 @@
                 .title-top {
                     width: 70%;
                     margin: auto;
+                    @include screen-1200 {
+                        width: 100%;
+                    }
+                    @include desktop {
+                        width: 100%;
+                    }
+                    @include tablet {
+                        width: 100%;
+                    }
+                    @include all-phone {
+                        width: 100%;
+                    }
                     h3 {
                         font-size: 60px;
                         font-family: $avenir;
                         font-weight: 600;
                         color: #742b8f;
                         text-transform: uppercase;
+                        @include screen-1400 {
+                            font-size: 40px;
+                        }
+                        @include screen-1200 {
+                            font-size: 40px;
+                        }
+                        @include desktop {
+                            font-size: 40px;
+                        }
+                        @include tablet {
+                            font-size: 30px;
+                            margin-top: 20px;
+                        }
+                        @include all-phone {
+                            font-size: 30px;
+                            margin-top: 20px;
+                        }
                     }
                 }
 
                 .refund-box {
                     width: 70%;
                     margin: 10px auto 0;
+                    @include screen-1400 {
+                        width: 90%;
+                    }
+                    @include screen-1200 {
+                        width: 90%;
+                    }
+                    @include desktop {
+                        width: 90%;
+                    }
+                    @include tablet {
+                        width: 90%;
+                    }
+                    @include all-phone {
+                        width: 90%;
+                    }
                     .single-refund {
                         text-align: center;
                         margin-bottom: 40px;
@@ -231,19 +596,34 @@
                             height: 180px;
                             display: flex;
                             align-self: center;
+                            @include landscape-phone {
+                                height: 140px;
+                            }
                             .icon-image {
                                 margin: auto;
                                 &.img-1 {
                                     width: 140px;
+                                    @include landscape-phone {
+                                        width: 100px;
+                                    }
                                 }
                                 &.img-2 {
                                     width: 200px;
+                                    @include landscape-phone {
+                                        width: 160px;
+                                    }
                                 }
                                 &.img-3 {
                                     width: 90px;
+                                    @include landscape-phone {
+                                        width: 50px;
+                                    }
                                 }
                                 &.img-4 {
                                     width: 160px;
+                                    @include landscape-phone {
+                                        width: 120px;
+                                    }
                                 }
                             }
                         }
@@ -252,6 +632,9 @@
                             font-family: $avenir;
                             font-weight: 400;
                             color: #742b8f;
+                            @include landscape-phone {
+                                font-size: 16px;
+                            }
                         }
                     }
                     
@@ -266,6 +649,31 @@
                     font-size: 24px;
                     font-family: $avenir;
                     font-weight: 400;
+                    @include screen-1400 {
+                        font-size: 18px;
+                    }
+                    @include screen-1200 {
+                        font-size: 16px;
+                    }
+                    @include desktop {
+                        font-size: 13px;
+                    }
+                    @include tablet {
+                        font-size: 18px;
+                    }
+                    @include all-phone {
+                        font-size: 18px;
+                    }
+                }
+                .qr-code {
+                    @include tablet {
+                        width: 200px;
+                        margin-top: 30px;
+                    }
+                    @include all-phone {
+                        width: 200px;
+                        margin-top: 30px;
+                    }
                 }
             }
 
@@ -277,6 +685,9 @@
                     font-size: 24px;
                     font-family: $avenir;
                     font-weight: 700;
+                    @include portrait-phone {
+                        font-size: 20px;
+                    }
                     span {
                         font-weight: 400;
                     }
@@ -284,4 +695,4 @@
             }
         }
     }
-}
+} // part-1 done
