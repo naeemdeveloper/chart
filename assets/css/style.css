@@ -1133,3 +1133,310 @@ img {
               font-size: 20px; } }
           .part-1 .fourth-area .style-box .footer-part h5 span {
             font-weight: 400; }
+
+.part-2 {
+  background-color: #e31f26;
+  padding: 0 0 50px; }
+  .part-2 .logo-part img {
+    width: auto;
+    margin: auto; }
+  .part-2 .content-title h3 {
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 600;
+    font-family: "colgate_ready";
+    padding: 15px 40px;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    text-align: center; }
+  .part-2 .chart-box {
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 95%;
+    margin: 30px auto 0; }
+    .part-2 .chart-box #chartContainer {
+      margin-left: 10px; }
+    .part-2 .chart-box h3 {
+      color: #44484c;
+      font-size: 42px;
+      font-weight: 600;
+      font-family: "colgate_ready";
+      margin-bottom: 30px; }
+    .part-2 .chart-box .brand-image img {
+      width: 90%; }
+  .part-2 .italic-text {
+    text-align: right; }
+    .part-2 .italic-text span {
+      display: inline-block;
+      padding: 20px 0;
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 300;
+      font-family: "colgate_ready"; }
+  .part-2 .group-images .group-image-1 {
+    width: 80%;
+    margin: auto; }
+  .part-2 .news-area {
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    position: relative;
+    z-index: 1; }
+    .part-2 .news-area .text-style {
+      position: absolute;
+      top: 0;
+      left: 0;
+      color: #ffffff;
+      font-size: 36px;
+      font-weight: 700;
+      font-family: "colgate_ready";
+      display: inline-block;
+      padding: 5px 30px 5px 20px;
+      border-radius: 20px 0 50px 0;
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#bcbebc), to(#6c7873));
+      background-image: -webkit-linear-gradient(#bcbebc, #6c7873);
+      background-image: -o-linear-gradient(#bcbebc, #6c7873);
+      background-image: linear-gradient(#bcbebc, #6c7873);
+      z-index: -1; }
+    .part-2 .news-area .title-top {
+      text-align: center; }
+      .part-2 .news-area .title-top h2 {
+        color: #e31f26;
+        font-size: 48px;
+        font-weight: 700;
+        font-family: "colgate_ready";
+        margin-bottom: 20px; }
+        .part-2 .news-area .title-top h2 span {
+          font-weight: 300; }
+    .part-2 .news-area .left-part {
+      padding: 20px; }
+      .part-2 .news-area .left-part h3 {
+        color: #44484c;
+        font-size: 40px;
+        font-weight: 600;
+        font-family: "colgate_ready";
+        margin: 0 0 70px; }
+      .part-2 .news-area .left-part h4 {
+        color: #44484c;
+        font-size: 30px;
+        font-weight: 600;
+        font-family: "colgate_ready";
+        margin: 50px 0; }
+      .part-2 .news-area .left-part .single-news {
+        margin-bottom: 30px;
+        border-radius: 10px; }
+        .part-2 .news-area .left-part .single-news h5 {
+          background-color: #44484c;
+          color: #ffffff;
+          font-size: 20px;
+          font-weight: 600;
+          font-family: "colgate_ready";
+          text-align: center;
+          padding: 10px 10px 20px;
+          border-radius: 10px 10px 0 0;
+          text-transform: uppercase; }
+        .part-2 .news-area .left-part .single-news img {
+          margin-top: -10px;
+          margin-bottom: 10px; }
+        .part-2 .news-area .left-part .single-news p {
+          color: #44484c;
+          font-size: 18px;
+          font-weight: 600;
+          font-family: "colgate_ready";
+          text-align: center; }
+      .part-2 .news-area .left-part .plus-icon {
+        width: auto;
+        margin: auto;
+        position: relative;
+        top: 100px; }
+    .part-2 .news-area .right-part {
+      background-color: #dfdede;
+      padding: 30px;
+      height: 100%;
+      border-radius: 0 0 20px 0;
+      position: relative; }
+      .part-2 .news-area .right-part h4 {
+        color: #44484c;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: "colgate_ready"; }
+      .part-2 .news-area .right-part .add-box {
+        background-color: #c9c8ca;
+        padding: 40px;
+        border-radius: 10px;
+        margin-bottom: 40px; }
+        .part-2 .news-area .right-part .add-box span {
+          color: #44484c;
+          font-size: 30px;
+          font-weight: 400;
+          font-family: "colgate_ready";
+          display: inline-block; }
+          .part-2 .news-area .right-part .add-box span.big {
+            font-size: 60px;
+            font-weight: 700; }
+        .part-2 .news-area .right-part .add-box .right-side img {
+          width: 120px;
+          margin-right: 20px; }
+      .part-2 .news-area .right-part .right-bottom {
+        margin-top: 40px; }
+        .part-2 .news-area .right-part .right-bottom .single-item {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+          width: 90%;
+          margin-bottom: 30px;
+          padding-bottom: 10px;
+          border-bottom: 1px solid #eeedee; }
+          .part-2 .news-area .right-part .right-bottom .single-item h5 {
+            color: #e31f26;
+            font-size: 24px;
+            font-weight: 400;
+            font-family: "colgate_ready"; }
+      .part-2 .news-area .right-part .bottom-text {
+        color: #44484c;
+        font-size: 22px;
+        font-weight: 300;
+        font-family: "colgate_ready";
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        text-align: right; }
+  .part-2 .content-title.content-title-2 {
+    margin-top: 40px; }
+    .part-2 .content-title.content-title-2 h3 {
+      font-size: 70px;
+      font-weight: 700;
+      background-image: url("../images/text-bg.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+      .part-2 .content-title.content-title-2 h3 span {
+        font-weight: 400; }
+  .part-2 .gallery-area {
+    margin-top: 30px;
+    position: relative;
+    padding: 0 30px; }
+    .part-2 .gallery-area .line-shape-1,
+    .part-2 .gallery-area .line-shape-2 {
+      width: auto;
+      position: absolute;
+      top: 0;
+      height: 95%; }
+    .part-2 .gallery-area .line-shape-1 {
+      left: 0; }
+    .part-2 .gallery-area .line-shape-2 {
+      right: 0; }
+    .part-2 .gallery-area .single-image,
+    .part-2 .gallery-area .content-box-1,
+    .part-2 .gallery-area .content-box-2 {
+      margin-bottom: 30px; }
+    .part-2 .gallery-area .single-image {
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100%;
+      border-radius: 20px; }
+      .part-2 .gallery-area .single-image.img-1 {
+        height: 400px;
+        background-image: url("../images/gallery-1.png"); }
+      .part-2 .gallery-area .single-image.img-2 {
+        height: 225px;
+        background-image: url("../images/gallery-2.png"); }
+      .part-2 .gallery-area .single-image.img-3 {
+        height: 380px;
+        background-image: url("../images/gallery-3.png"); }
+    .part-2 .gallery-area .content-box-1 {
+      background-color: #9571b2;
+      border-radius: 20px;
+      padding: 20px; }
+      .part-2 .gallery-area .content-box-1 p {
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: 400;
+        font-family: "colgate_ready"; }
+    .part-2 .gallery-area .content-box-2 {
+      background-color: #6b2f90;
+      border-radius: 20px;
+      padding: 20px;
+      text-align: center; }
+      .part-2 .gallery-area .content-box-2 h4 {
+        color: #ffffff;
+        font-size: 50px;
+        font-weight: 400;
+        font-family: "colgate_ready"; }
+        .part-2 .gallery-area .content-box-2 h4 span {
+          font-weight: 600; }
+  .part-2 .colgate-area {
+    background-image: url("../images/colgate-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+    padding: 100px; }
+    .part-2 .colgate-area .text-style {
+      position: absolute;
+      top: 0;
+      left: 0;
+      color: #ffffff;
+      font-size: 36px;
+      font-weight: 700;
+      font-family: "colgate_ready";
+      display: inline-block;
+      padding: 5px 30px 5px 20px;
+      border-radius: 20px 0 50px 0;
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#bcbebc), to(#6c7873));
+      background-image: -webkit-linear-gradient(#bcbebc, #6c7873);
+      background-image: -o-linear-gradient(#bcbebc, #6c7873);
+      background-image: linear-gradient(#bcbebc, #6c7873);
+      z-index: -1; }
+    .part-2 .colgate-area .title-top {
+      text-align: center; }
+      .part-2 .colgate-area .title-top h2 {
+        color: #ffffff;
+        font-size: 70px;
+        font-weight: 400;
+        font-family: "colgate_ready";
+        margin-bottom: 20px; }
+        .part-2 .colgate-area .title-top h2.uppercase {
+          text-transform: uppercase; }
+        .part-2 .colgate-area .title-top h2 span {
+          font-weight: 700; }
+    .part-2 .colgate-area .main-image {
+      position: relative;
+      top: -50px;
+      width: 90%;
+      margin: auto; }
+    .part-2 .colgate-area .teeth-items {
+      position: relative;
+      top: -50px; }
+      .part-2 .colgate-area .teeth-items .single-item {
+        text-align: center;
+        margin-bottom: 30px; }
+        .part-2 .colgate-area .teeth-items .single-item img {
+          width: auto;
+          margin: auto; }
+        .part-2 .colgate-area .teeth-items .single-item p {
+          color: #ffffff;
+          font-size: 25px;
+          font-weight: 400;
+          font-family: "colgate_ready";
+          margin-top: 20px;
+          padding: 0 30px;
+          text-transform: uppercase; }
+    .part-2 .colgate-area .bottom-text {
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 300;
+      font-family: "colgate_ready";
+      position: absolute;
+      bottom: 20px;
+      right: 50px; }

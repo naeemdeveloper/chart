@@ -696,3 +696,391 @@
         }
     }
 } // part-1 done
+
+.part-2 {
+    background-color: $part-2-color;
+    padding: 0 0 50px;
+    .logo-part {
+        img {
+            width: auto;
+            margin: auto;
+        }
+    }
+
+    .content-title {
+        h3 {
+            color: $white-color;
+            font-size: 42px;
+            font-weight: 600;
+            font-family: $colgate;
+            padding: 15px 40px;
+            border: 2px solid $white-color;
+            border-radius: 15px;
+            text-align: center;
+        }
+    }
+
+    .chart-box {
+        background-color: $white-color;
+        border-radius: 15px;
+        width: 95%;
+        margin: 30px auto 0;
+        #chartContainer {
+            margin-left: 10px;
+        }
+        h3 {
+            color: $black-color-part-2;
+            font-size: 42px;
+            font-weight: 600;
+            font-family: $colgate;
+            margin-bottom: 30px;
+        }
+        .brand-image {
+            img {
+                width: 90%;
+            }
+        }
+    }
+
+    .italic-text {
+        text-align: right;
+        span {
+            display: inline-block;
+            padding: 20px 0;
+            color: $white-color;
+            font-size: 22px;
+            font-weight: 300;
+            font-family: $colgate;
+        }
+    }
+
+    .group-images {
+        .group-image-1 {
+            width: 80%;
+            margin: auto;
+        }
+    }
+
+    .news-area {
+        background-color: $white-color;
+        border-radius: 20px;
+        border: 2px solid $white-color;
+        position: relative;
+        z-index: 1;
+        .text-style {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: $white-color;
+            font-size: 36px;
+            font-weight: 700;
+            font-family: $colgate;
+            display: inline-block;
+            padding: 5px 30px 5px 20px;
+            border-radius: 20px 0 50px 0;
+            background-image: linear-gradient(#bcbebc, #6c7873);
+            z-index: -1;
+        }
+        .title-top {
+            text-align: center;
+            h2 {
+                color: $part-2-color;
+                font-size: 48px;
+                font-weight: 700;
+                font-family: $colgate;
+                margin-bottom: 20px;
+                span {
+                    font-weight: 300;
+                }
+            }
+        }
+
+        .left-part {
+            padding: 20px;
+            h3 {
+                color: $black-color-part-2;
+                font-size: 40px;
+                font-weight: 600;
+                font-family: $colgate;
+                margin: 0 0 70px;
+            }
+            h4 {
+                color: $black-color-part-2;
+                font-size: 30px;
+                font-weight: 600;
+                font-family: $colgate;
+                margin: 50px 0;
+            }
+
+            .single-news {
+                margin-bottom: 30px;
+                border-radius: 10px;
+                h5 {
+                    background-color: #44484c;
+                    color: $white-color;
+                    font-size: 20px;
+                    font-weight: 600;
+                    font-family: $colgate;
+                    text-align: center;
+                    padding: 10px 10px 20px;
+                    border-radius: 10px 10px 0 0;
+                    text-transform: uppercase;
+                }
+                img {
+                    margin-top: -10px;
+                    margin-bottom: 10px;
+                }
+                p {
+                    color: $black-color-part-2;
+                    font-size: 18px;
+                    font-weight: 600;
+                    font-family: $colgate;
+                    text-align: center;
+                }
+            }
+            .plus-icon {
+                width: auto;
+                margin: auto;
+                position: relative;
+                top: 100px;
+            }
+        }
+
+        .right-part {
+            background-color: #dfdede;
+            padding: 30px;
+            height: 100%;
+            border-radius: 0 0 20px 0;
+            position: relative;
+            h4 {
+                color: $black-color-part-2;
+                font-size: 24px;
+                font-weight: 600;
+                font-family: $colgate;
+            }
+
+            .add-box {
+                background-color: #c9c8ca;
+                padding: 40px;
+                border-radius: 10px;
+                margin-bottom: 40px;
+                span {
+                    color: $black-color-part-2;
+                    font-size: 30px;
+                    font-weight: 400;
+                    font-family: $colgate;
+                    display: inline-block;
+                    &.big {
+                        font-size: 60px;
+                        font-weight: 700;
+                    }
+                }
+                .right-side {
+                    img {
+                        width: 120px;
+                        margin-right: 20px;
+                    }
+                }
+            }
+
+            .right-bottom {
+                margin-top: 40px; 
+                .single-item {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 90%;
+                    margin-bottom: 30px;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid #eeedee;
+                    h5 {
+                        color: $part-2-color;
+                        font-size: 24px;
+                        font-weight: 400;
+                        font-family: $colgate;
+                    }
+                }
+            }
+
+            .bottom-text {
+                color: $black-color-part-2;
+                font-size: 22px;
+                font-weight: 300;
+                font-family: $colgate;
+                position: absolute;
+                bottom: 10px;
+                right: 10px;
+                text-align: right;
+            }
+        }
+    }
+
+    .content-title.content-title-2 {
+        margin-top: 40px;
+        h3 {
+            font-size: 70px;
+            font-weight: 700;
+            background-image: url('../images/text-bg.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            span {
+                font-weight: 400;
+            }
+        }
+    }
+
+    .gallery-area {
+        margin-top: 30px;
+        position: relative;
+        padding: 0 30px;
+        .line-shape-1,
+        .line-shape-2 {
+            width: auto;
+            position: absolute;
+            top: 0;
+            height: 95%;
+        }
+        .line-shape-1 {
+            left: 0;
+        }
+        .line-shape-2 {
+            right: 0;
+        }
+
+        .single-image,
+        .content-box-1,
+        .content-box-2 {
+            margin-bottom: 30px;
+        }
+
+        .single-image {
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+            border-radius: 20px;
+            &.img-1 {
+                height: 400px;
+                background-image: url('../images/gallery-1.png');
+            }
+            &.img-2 {
+                height: 225px;
+                background-image: url('../images/gallery-2.png');
+            }
+            &.img-3 {
+                height: 380px;
+                background-image: url('../images/gallery-3.png');
+            }
+        }
+
+        .content-box-1 {
+            background-color: #9571b2;
+            border-radius: 20px;
+            padding: 20px;
+            p {
+                color: $white-color;
+                font-size: 25px;
+                font-weight: 400;
+                font-family: $colgate;
+            }
+        }
+        .content-box-2 {
+            background-color: #6b2f90;
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+            h4 {
+                color: $white-color;
+                font-size: 50px;
+                font-weight: 400;
+                font-family: $colgate;
+                span {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+    .colgate-area {
+        background-image: url('../images/colgate-bg.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 20px;
+        border: 2px solid $white-color;
+        position: relative;
+        z-index: 1;
+        margin-top: 10px;
+        padding: 100px;
+        .text-style {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: $white-color;
+            font-size: 36px;
+            font-weight: 700;
+            font-family: $colgate;
+            display: inline-block;
+            padding: 5px 30px 5px 20px;
+            border-radius: 20px 0 50px 0;
+            background-image: linear-gradient(#bcbebc, #6c7873);
+            z-index: -1;
+        }
+
+        .title-top {
+            text-align: center;
+            h2 {
+                color: $white-color;
+                font-size: 70px;
+                font-weight: 400;
+                font-family: $colgate;
+                margin-bottom: 20px;
+                &.uppercase {
+                    text-transform: uppercase;
+                }
+                span {
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .main-image {
+            position: relative;
+            top: -50px;
+            width: 90%;
+            margin: auto;
+        }
+
+        .teeth-items {
+            position: relative;
+            top: -50px;
+            .single-item {
+                text-align: center;
+                margin-bottom: 30px;
+                img {
+                    width: auto;
+                    margin: auto;
+                }
+                p {
+                    color: $white-color;
+                    font-size: 25px;
+                    font-weight: 400;
+                    font-family: $colgate;
+                    margin-top: 20px;
+                    padding: 0 30px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        .bottom-text {
+            color: $white-color;
+            font-size: 22px;
+            font-weight: 300;
+            font-family: $colgate;
+            position: absolute;
+            bottom: 20px;
+            right: 50px;
+        }
+    }
+}
