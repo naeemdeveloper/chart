@@ -188,7 +188,7 @@
         @include all-phone{
             margin-top: 50px;
         }
-        @include screen-360 {
+        @include portrait-phone {
             padding: 0 20px 20px;
         }
 

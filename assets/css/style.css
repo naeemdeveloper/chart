@@ -683,7 +683,7 @@ img {
     @media (max-width: 767.98px) {
       .part-1 .fourth-area {
         margin-top: 50px; } }
-    @media (max-width: 360px) {
+    @media (max-width: 575.98px) {
       .part-1 .fourth-area {
         padding: 0 20px 20px; } }
     .part-1 .fourth-area .brand-part .single-brand {
