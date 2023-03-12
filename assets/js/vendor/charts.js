@@ -4,8 +4,9 @@ new Chart(ctx, {
     data: {
         labels: ['Kategoria past', 'Colgate', 'Elmex', 'Marka A', 'Marka B', 'Marka C'],
         datasets: [{
-        label: '',
+        label: 'zmiana wartości sprzedaży rok do roku (mln zł)',
         data: [91, 30, 15, 15, 9, 6],
+        color: ['#253c7e'],
         backgroundColor: [
             '#253c7e',
             '#e31f26',
@@ -27,6 +28,9 @@ new Chart(ctx, {
     },
     options: {
         indexAxis: 'y',
+        layout: {
+            padding: 20
+        },
         scales: {
             y: {
                 beginAtZero: true
