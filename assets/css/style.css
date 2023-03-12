@@ -774,6 +774,9 @@ img {
               font-size: 50px;
               text-align: left;
               color: #742b8f; } }
+          @media (max-width: 575.98px) {
+            .part-1 .fourth-area .style-box .product-area .title-top h2 {
+              line-height: 48px; } }
           .part-1 .fourth-area .style-box .product-area .title-top h2 span {
             font-size: 120px; }
             @media (min-width: 1400px) and (max-width: 1919.98px) {
@@ -1028,6 +1031,9 @@ img {
             .part-1 .fourth-area .style-box .refund-part .title-top h3 {
               font-size: 30px;
               margin-top: 20px; } }
+          @media (max-width: 575.98px) {
+            .part-1 .fourth-area .style-box .refund-part .title-top h3 {
+              margin-bottom: 40px; } }
       .part-1 .fourth-area .style-box .refund-part .refund-box {
         width: 70%;
         margin: 10px auto 0; }
@@ -1059,6 +1065,9 @@ img {
             @media (min-width: 576px) and (max-width: 767.98px) {
               .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund .img-box {
                 height: 140px; } }
+            @media (max-width: 575.98px) {
+              .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund .img-box {
+                height: auto; } }
             .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund .img-box .icon-image {
               margin: auto; }
               .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund .img-box .icon-image.img-1 {
@@ -1089,6 +1098,9 @@ img {
             @media (min-width: 576px) and (max-width: 767.98px) {
               .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund p {
                 font-size: 16px; } }
+            @media (max-width: 575.98px) {
+              .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund p {
+                margin-top: 20px; } }
       .part-1 .fourth-area .style-box .disclaimer-part {
         width: 95%;
         margin: auto; }
@@ -1149,20 +1161,38 @@ img {
     border: 2px solid #ffffff;
     border-radius: 15px;
     text-align: center; }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .part-2 .content-title h3 {
+        font-size: 30px; } }
+    @media (max-width: 767.98px) {
+      .part-2 .content-title h3 {
+        font-size: 30px; } }
   .part-2 .chart-box {
     background-color: #ffffff;
     border-radius: 15px;
     width: 95%;
     margin: 30px auto 0; }
-    .part-2 .chart-box #chartContainer {
-      margin-left: 10px; }
-    .part-2 .chart-box h3 {
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .part-2 .chart-box .right-content {
+        padding: 20px; } }
+    @media (max-width: 767.98px) {
+      .part-2 .chart-box .right-content {
+        padding: 20px; } }
+    .part-2 .chart-box .right-content h3 {
       color: #44484c;
       font-size: 42px;
       font-weight: 600;
       font-family: "colgate_ready";
       margin-bottom: 30px; }
-    .part-2 .chart-box .brand-image img {
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .part-2 .chart-box .right-content h3 {
+          font-size: 30px;
+          margin-top: 30px; } }
+      @media (max-width: 767.98px) {
+        .part-2 .chart-box .right-content h3 {
+          font-size: 30px;
+          margin-top: 30px; } }
+    .part-2 .chart-box .right-content .brand-image img {
       width: 90%; }
   .part-2 .italic-text {
     text-align: right; }
@@ -1176,12 +1206,31 @@ img {
   .part-2 .group-images .group-image-1 {
     width: 80%;
     margin: auto; }
+    @media (max-width: 767.98px) {
+      .part-2 .group-images .group-image-1 {
+        width: 60%;
+        margin: 0 auto 30px; } }
   .part-2 .news-area {
     background-color: #ffffff;
     border-radius: 20px;
     border: 2px solid #ffffff;
     position: relative;
     z-index: 1; }
+    @media (min-width: 1400px) and (max-width: 1919.98px) {
+      .part-2 .news-area {
+        padding-top: 70px; } }
+    @media (min-width: 1200px) and (max-width: 1399.98px) {
+      .part-2 .news-area {
+        padding-top: 70px; } }
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      .part-2 .news-area {
+        padding-top: 70px; } }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .part-2 .news-area {
+        padding-top: 50px; } }
+    @media (max-width: 767.98px) {
+      .part-2 .news-area {
+        padding-top: 40px; } }
     .part-2 .news-area .text-style {
       position: absolute;
       top: 0;
@@ -1198,6 +1247,12 @@ img {
       background-image: -o-linear-gradient(#bcbebc, #6c7873);
       background-image: linear-gradient(#bcbebc, #6c7873);
       z-index: -1; }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .part-2 .news-area .text-style {
+          font-size: 24px; } }
+      @media (max-width: 767.98px) {
+        .part-2 .news-area .text-style {
+          font-size: 20px; } }
     .part-2 .news-area .title-top {
       text-align: center; }
       .part-2 .news-area .title-top h2 {
@@ -1206,6 +1261,12 @@ img {
         font-weight: 700;
         font-family: "colgate_ready";
         margin-bottom: 20px; }
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          .part-2 .news-area .title-top h2 {
+            font-size: 30px; } }
+        @media (max-width: 767.98px) {
+          .part-2 .news-area .title-top h2 {
+            font-size: 30px; } }
         .part-2 .news-area .title-top h2 span {
           font-weight: 300; }
     .part-2 .news-area .left-part {
@@ -1216,6 +1277,12 @@ img {
         font-weight: 600;
         font-family: "colgate_ready";
         margin: 0 0 70px; }
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          .part-2 .news-area .left-part h3 {
+            font-size: 30px; } }
+        @media (max-width: 767.98px) {
+          .part-2 .news-area .left-part h3 {
+            font-size: 30px; } }
       .part-2 .news-area .left-part h4 {
         color: #44484c;
         font-size: 30px;
@@ -1235,6 +1302,9 @@ img {
           padding: 10px 10px 20px;
           border-radius: 10px 10px 0 0;
           text-transform: uppercase; }
+          @media (min-width: 992px) and (max-width: 1199.98px) {
+            .part-2 .news-area .left-part .single-news h5 {
+              font-size: 15px; } }
         .part-2 .news-area .left-part .single-news img {
           margin-top: -10px;
           margin-bottom: 10px; }
@@ -1244,17 +1314,29 @@ img {
           font-weight: 600;
           font-family: "colgate_ready";
           text-align: center; }
+          @media (min-width: 992px) and (max-width: 1199.98px) {
+            .part-2 .news-area .left-part .single-news p {
+              font-size: 15px; } }
       .part-2 .news-area .left-part .plus-icon {
         width: auto;
         margin: auto;
         position: relative;
         top: 100px; }
+        @media (max-width: 767.98px) {
+          .part-2 .news-area .left-part .plus-icon {
+            display: none; } }
     .part-2 .news-area .right-part {
       background-color: #dfdede;
       padding: 30px;
       height: 100%;
       border-radius: 0 0 20px 0;
       position: relative; }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .part-2 .news-area .right-part {
+          border-radius: 0 0 20px 20px; } }
+      @media (max-width: 767.98px) {
+        .part-2 .news-area .right-part {
+          border-radius: 0 0 20px 20px; } }
       .part-2 .news-area .right-part h4 {
         color: #44484c;
         font-size: 24px;
@@ -1265,20 +1347,62 @@ img {
         padding: 40px;
         border-radius: 10px;
         margin-bottom: 40px; }
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          .part-2 .news-area .right-part .add-box {
+            padding: 20px 20px 40px; } }
         .part-2 .news-area .right-part .add-box span {
           color: #44484c;
           font-size: 30px;
           font-weight: 400;
           font-family: "colgate_ready";
           display: inline-block; }
+          @media (min-width: 1200px) and (max-width: 1399.98px) {
+            .part-2 .news-area .right-part .add-box span {
+              font-size: 20px; } }
+          @media (min-width: 992px) and (max-width: 1199.98px) {
+            .part-2 .news-area .right-part .add-box span {
+              font-size: 20px; } }
+          @media (min-width: 768px) and (max-width: 991.98px) {
+            .part-2 .news-area .right-part .add-box span {
+              font-size: 20px; } }
+          @media (max-width: 767.98px) {
+            .part-2 .news-area .right-part .add-box span {
+              font-size: 20px; } }
           .part-2 .news-area .right-part .add-box span.big {
             font-size: 60px;
             font-weight: 700; }
+            @media (min-width: 1400px) and (max-width: 1919.98px) {
+              .part-2 .news-area .right-part .add-box span.big {
+                font-size: 40px; } }
+            @media (min-width: 1200px) and (max-width: 1399.98px) {
+              .part-2 .news-area .right-part .add-box span.big {
+                font-size: 30px; } }
+            @media (min-width: 992px) and (max-width: 1199.98px) {
+              .part-2 .news-area .right-part .add-box span.big {
+                font-size: 30px; } }
+            @media (min-width: 768px) and (max-width: 991.98px) {
+              .part-2 .news-area .right-part .add-box span.big {
+                font-size: 30px; } }
+            @media (max-width: 767.98px) {
+              .part-2 .news-area .right-part .add-box span.big {
+                font-size: 30px; } }
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          .part-2 .news-area .right-part .add-box .right-side {
+            margin-top: 30px; } }
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          .part-2 .news-area .right-part .add-box .right-side {
+            margin-top: 30px; } }
+        @media (max-width: 767.98px) {
+          .part-2 .news-area .right-part .add-box .right-side {
+            margin-top: 30px; } }
         .part-2 .news-area .right-part .add-box .right-side img {
           width: 120px;
           margin-right: 20px; }
       .part-2 .news-area .right-part .right-bottom {
         margin-top: 40px; }
+        @media (max-width: 575.98px) {
+          .part-2 .news-area .right-part .right-bottom {
+            margin-top: 20px; } }
         .part-2 .news-area .right-part .right-bottom .single-item {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -1298,6 +1422,15 @@ img {
             font-size: 24px;
             font-weight: 400;
             font-family: "colgate_ready"; }
+            @media (min-width: 992px) and (max-width: 1199.98px) {
+              .part-2 .news-area .right-part .right-bottom .single-item h5 {
+                font-size: 20px; } }
+            @media (min-width: 768px) and (max-width: 991.98px) {
+              .part-2 .news-area .right-part .right-bottom .single-item h5 {
+                font-size: 20px; } }
+            @media (max-width: 767.98px) {
+              .part-2 .news-area .right-part .right-bottom .single-item h5 {
+                font-size: 20px; } }
       .part-2 .news-area .right-part .bottom-text {
         color: #44484c;
         font-size: 22px;
@@ -1307,6 +1440,18 @@ img {
         bottom: 10px;
         right: 10px;
         text-align: right; }
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          .part-2 .news-area .right-part .bottom-text {
+            font-size: 14px; } }
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          .part-2 .news-area .right-part .bottom-text {
+            font-size: 14px; } }
+        @media (max-width: 767.98px) {
+          .part-2 .news-area .right-part .bottom-text {
+            font-size: 14px; } }
+        @media (max-width: 575.98px) {
+          .part-2 .news-area .right-part .bottom-text {
+            font-size: 12px; } }
   .part-2 .content-title.content-title-2 {
     margin-top: 40px; }
     .part-2 .content-title.content-title-2 h3 {
@@ -1316,18 +1461,35 @@ img {
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover; }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .part-2 .content-title.content-title-2 h3 {
+          font-size: 30px; } }
+      @media (max-width: 767.98px) {
+        .part-2 .content-title.content-title-2 h3 {
+          font-size: 30px; } }
       .part-2 .content-title.content-title-2 h3 span {
         font-weight: 400; }
   .part-2 .gallery-area {
     margin-top: 30px;
     position: relative;
     padding: 0 30px; }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .part-2 .gallery-area {
+        padding: 0 100px; } }
     .part-2 .gallery-area .line-shape-1,
     .part-2 .gallery-area .line-shape-2 {
       width: auto;
       position: absolute;
       top: 0;
       height: 95%; }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .part-2 .gallery-area .line-shape-1,
+        .part-2 .gallery-area .line-shape-2 {
+          display: none; } }
+      @media (max-width: 767.98px) {
+        .part-2 .gallery-area .line-shape-1,
+        .part-2 .gallery-area .line-shape-2 {
+          display: none; } }
     .part-2 .gallery-area .line-shape-1 {
       left: 0; }
     .part-2 .gallery-area .line-shape-2 {
@@ -1344,12 +1506,51 @@ img {
       .part-2 .gallery-area .single-image.img-1 {
         height: 400px;
         background-image: url("../images/gallery-1.png"); }
+        @media (min-width: 1400px) and (max-width: 1919.98px) {
+          .part-2 .gallery-area .single-image.img-1 {
+            height: 280px; } }
+        @media (min-width: 1200px) and (max-width: 1399.98px) {
+          .part-2 .gallery-area .single-image.img-1 {
+            height: 200px; } }
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          .part-2 .gallery-area .single-image.img-1 {
+            height: 170px; } }
+        @media (max-width: 575.98px) {
+          .part-2 .gallery-area .single-image.img-1 {
+            height: 250px; } }
       .part-2 .gallery-area .single-image.img-2 {
         height: 225px;
         background-image: url("../images/gallery-2.png"); }
+        @media (min-width: 1400px) and (max-width: 1919.98px) {
+          .part-2 .gallery-area .single-image.img-2 {
+            height: 190px; } }
+        @media (min-width: 1200px) and (max-width: 1399.98px) {
+          .part-2 .gallery-area .single-image.img-2 {
+            height: 170px; } }
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          .part-2 .gallery-area .single-image.img-2 {
+            height: 140px; } }
+        @media (max-width: 575.98px) {
+          .part-2 .gallery-area .single-image.img-2 {
+            height: 100px; } }
       .part-2 .gallery-area .single-image.img-3 {
         height: 380px;
         background-image: url("../images/gallery-3.png"); }
+        @media (min-width: 1200px) and (max-width: 1399.98px) {
+          .part-2 .gallery-area .single-image.img-3 {
+            height: 260px; } }
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          .part-2 .gallery-area .single-image.img-3 {
+            height: 260px; } }
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          .part-2 .gallery-area .single-image.img-3 {
+            height: 180px; } }
+        @media (max-width: 767.98px) {
+          .part-2 .gallery-area .single-image.img-3 {
+            height: 180px; } }
+        @media (max-width: 575.98px) {
+          .part-2 .gallery-area .single-image.img-3 {
+            height: 120px; } }
     .part-2 .gallery-area .content-box-1 {
       background-color: #9571b2;
       border-radius: 20px;
@@ -1359,6 +1560,15 @@ img {
         font-size: 25px;
         font-weight: 400;
         font-family: "colgate_ready"; }
+        @media (min-width: 1200px) and (max-width: 1399.98px) {
+          .part-2 .gallery-area .content-box-1 p {
+            font-size: 20px; } }
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          .part-2 .gallery-area .content-box-1 p {
+            font-size: 16px; } }
+        @media (max-width: 575.98px) {
+          .part-2 .gallery-area .content-box-1 p {
+            font-size: 20px; } }
     .part-2 .gallery-area .content-box-2 {
       background-color: #6b2f90;
       border-radius: 20px;
@@ -1369,6 +1579,18 @@ img {
         font-size: 50px;
         font-weight: 400;
         font-family: "colgate_ready"; }
+        @media (min-width: 1400px) and (max-width: 1919.98px) {
+          .part-2 .gallery-area .content-box-2 h4 {
+            font-size: 42px; } }
+        @media (min-width: 1200px) and (max-width: 1399.98px) {
+          .part-2 .gallery-area .content-box-2 h4 {
+            font-size: 35px; } }
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          .part-2 .gallery-area .content-box-2 h4 {
+            font-size: 26px; } }
+        @media (max-width: 575.98px) {
+          .part-2 .gallery-area .content-box-2 h4 {
+            font-size: 30px; } }
         .part-2 .gallery-area .content-box-2 h4 span {
           font-weight: 600; }
   .part-2 .colgate-area {
@@ -1382,6 +1604,18 @@ img {
     z-index: 1;
     margin-top: 10px;
     padding: 100px; }
+    @media (min-width: 1200px) and (max-width: 1399.98px) {
+      .part-2 .colgate-area {
+        padding: 100px 50px; } }
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      .part-2 .colgate-area {
+        padding: 100px 50px; } }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .part-2 .colgate-area {
+        padding: 50px; } }
+    @media (max-width: 767.98px) {
+      .part-2 .colgate-area {
+        padding: 50px 20px; } }
     .part-2 .colgate-area .text-style {
       position: absolute;
       top: 0;
@@ -1398,6 +1632,12 @@ img {
       background-image: -o-linear-gradient(#bcbebc, #6c7873);
       background-image: linear-gradient(#bcbebc, #6c7873);
       z-index: -1; }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .part-2 .colgate-area .text-style {
+          font-size: 24px; } }
+      @media (max-width: 767.98px) {
+        .part-2 .colgate-area .text-style {
+          font-size: 20px; } }
     .part-2 .colgate-area .title-top {
       text-align: center; }
       .part-2 .colgate-area .title-top h2 {
@@ -1406,8 +1646,21 @@ img {
         font-weight: 400;
         font-family: "colgate_ready";
         margin-bottom: 20px; }
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          .part-2 .colgate-area .title-top h2 {
+            font-size: 40px; } }
+        @media (max-width: 767.98px) {
+          .part-2 .colgate-area .title-top h2 {
+            font-size: 30px; } }
         .part-2 .colgate-area .title-top h2.uppercase {
-          text-transform: uppercase; }
+          text-transform: uppercase;
+          margin-top: 40px; }
+          @media (min-width: 768px) and (max-width: 991.98px) {
+            .part-2 .colgate-area .title-top h2.uppercase {
+              margin-top: 20px; } }
+          @media (max-width: 767.98px) {
+            .part-2 .colgate-area .title-top h2.uppercase {
+              margin-top: 20px; } }
         .part-2 .colgate-area .title-top h2 span {
           font-weight: 700; }
     .part-2 .colgate-area .main-image {
@@ -1415,14 +1668,44 @@ img {
       top: -50px;
       width: 90%;
       margin: auto; }
+      @media (min-width: 1400px) and (max-width: 1919.98px) {
+        .part-2 .colgate-area .main-image {
+          top: -30px; } }
+      @media (min-width: 1200px) and (max-width: 1399.98px) {
+        .part-2 .colgate-area .main-image {
+          top: -30px; } }
+      @media (min-width: 992px) and (max-width: 1199.98px) {
+        .part-2 .colgate-area .main-image {
+          top: -30px; } }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .part-2 .colgate-area .main-image {
+          top: -10px; } }
+      @media (max-width: 767.98px) {
+        .part-2 .colgate-area .main-image {
+          top: -10px; } }
     .part-2 .colgate-area .teeth-items {
       position: relative;
       top: -50px; }
+      @media (min-width: 1400px) and (max-width: 1919.98px) {
+        .part-2 .colgate-area .teeth-items {
+          top: -30px; } }
+      @media (min-width: 1200px) and (max-width: 1399.98px) {
+        .part-2 .colgate-area .teeth-items {
+          top: -30px; } }
+      @media (min-width: 992px) and (max-width: 1199.98px) {
+        .part-2 .colgate-area .teeth-items {
+          top: -30px; } }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .part-2 .colgate-area .teeth-items {
+          top: -10px; } }
+      @media (max-width: 767.98px) {
+        .part-2 .colgate-area .teeth-items {
+          top: -10px; } }
       .part-2 .colgate-area .teeth-items .single-item {
         text-align: center;
         margin-bottom: 30px; }
         .part-2 .colgate-area .teeth-items .single-item img {
-          width: auto;
+          width: 180px;
           margin: auto; }
         .part-2 .colgate-area .teeth-items .single-item p {
           color: #ffffff;
@@ -1432,6 +1715,25 @@ img {
           margin-top: 20px;
           padding: 0 30px;
           text-transform: uppercase; }
+          @media (min-width: 1400px) and (max-width: 1919.98px) {
+            .part-2 .colgate-area .teeth-items .single-item p {
+              font-size: 20px; } }
+          @media (min-width: 1200px) and (max-width: 1399.98px) {
+            .part-2 .colgate-area .teeth-items .single-item p {
+              font-size: 20px;
+              padding: 0 15px; } }
+          @media (min-width: 992px) and (max-width: 1199.98px) {
+            .part-2 .colgate-area .teeth-items .single-item p {
+              font-size: 18px;
+              padding: 0 15px; } }
+          @media (min-width: 768px) and (max-width: 991.98px) {
+            .part-2 .colgate-area .teeth-items .single-item p {
+              font-size: 20px;
+              padding: 0 20px; } }
+          @media (max-width: 767.98px) {
+            .part-2 .colgate-area .teeth-items .single-item p {
+              font-size: 20px;
+              padding: 0 20px; } }
     .part-2 .colgate-area .bottom-text {
       color: #ffffff;
       font-size: 22px;
@@ -1440,3 +1742,9 @@ img {
       position: absolute;
       bottom: 20px;
       right: 50px; }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .part-2 .colgate-area .bottom-text {
+          font-size: 16px; } }
+      @media (max-width: 767.98px) {
+        .part-2 .colgate-area .bottom-text {
+          font-size: 15px; } }

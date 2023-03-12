@@ -289,6 +289,9 @@
                             text-align: left;
                             color: #742b8f;
                         }
+                        @include portrait-phone {
+                            line-height: 48px;
+                        }
                         span {
                             font-size: 120px;
                             @include screen-1400 {
@@ -568,6 +571,9 @@
                             font-size: 30px;
                             margin-top: 20px;
                         }
+                        @include portrait-phone {
+                            margin-bottom: 40px;
+                        }
                     }
                 }
 
@@ -598,6 +604,9 @@
                             align-self: center;
                             @include landscape-phone {
                                 height: 140px;
+                            }
+                            @include portrait-phone {
+                                height: auto;
                             }
                             .icon-image {
                                 margin: auto;
@@ -634,6 +643,9 @@
                             color: #742b8f;
                             @include landscape-phone {
                                 font-size: 16px;
+                            }
+                            @include portrait-phone {
+                                margin-top: 20px;
                             }
                         }
                     }
@@ -717,6 +729,12 @@
             border: 2px solid $white-color;
             border-radius: 15px;
             text-align: center;
+            @include tablet {
+                font-size: 30px;
+            }
+            @include all-phone {
+                font-size: 30px;
+            }
         }
     }
 
@@ -725,19 +743,33 @@
         border-radius: 15px;
         width: 95%;
         margin: 30px auto 0;
-        #chartContainer {
-            margin-left: 10px;
-        }
-        h3 {
-            color: $black-color-part-2;
-            font-size: 42px;
-            font-weight: 600;
-            font-family: $colgate;
-            margin-bottom: 30px;
-        }
-        .brand-image {
-            img {
-                width: 90%;
+
+        .right-content {
+            @include tablet {
+                padding: 20px
+            }
+            @include all-phone {
+                padding: 20px
+            }
+            h3 {
+                color: $black-color-part-2;
+                font-size: 42px;
+                font-weight: 600;
+                font-family: $colgate;
+                margin-bottom: 30px;
+                @include tablet {
+                    font-size: 30px;
+                    margin-top: 30px;
+                }
+                @include all-phone {
+                    font-size: 30px;
+                    margin-top: 30px;
+                }
+            }
+            .brand-image {
+                img {
+                    width: 90%;
+                }
             }
         }
     }
@@ -758,6 +790,10 @@
         .group-image-1 {
             width: 80%;
             margin: auto;
+            @include all-phone {
+                width: 60%;
+                margin: 0 auto 30px;
+            }
         }
     }
 
@@ -767,6 +803,22 @@
         border: 2px solid $white-color;
         position: relative;
         z-index: 1;
+        @include screen-1400 {
+            padding-top: 70px;
+        }
+        @include screen-1200 {
+            padding-top: 70px;
+        }
+        @include desktop {
+            padding-top: 70px;
+        }
+        @include tablet {
+            padding-top: 50px;
+        }
+        @include all-phone {
+            padding-top: 40px;
+        }
+
         .text-style {
             position: absolute;
             top: 0;
@@ -780,7 +832,14 @@
             border-radius: 20px 0 50px 0;
             background-image: linear-gradient(#bcbebc, #6c7873);
             z-index: -1;
+            @include tablet {
+                font-size: 24px;
+            }
+            @include all-phone {
+                font-size: 20px;
+            }
         }
+
         .title-top {
             text-align: center;
             h2 {
@@ -789,6 +848,12 @@
                 font-weight: 700;
                 font-family: $colgate;
                 margin-bottom: 20px;
+                @include tablet {
+                    font-size: 30px;
+                }
+                @include all-phone {
+                    font-size: 30px;
+                }
                 span {
                     font-weight: 300;
                 }
@@ -803,6 +868,12 @@
                 font-weight: 600;
                 font-family: $colgate;
                 margin: 0 0 70px;
+                @include tablet {
+                    font-size: 30px;
+                }
+                @include all-phone {
+                    font-size: 30px;
+                }
             }
             h4 {
                 color: $black-color-part-2;
@@ -825,6 +896,9 @@
                     padding: 10px 10px 20px;
                     border-radius: 10px 10px 0 0;
                     text-transform: uppercase;
+                    @include desktop {
+                        font-size: 15px;
+                    }
                 }
                 img {
                     margin-top: -10px;
@@ -836,6 +910,9 @@
                     font-weight: 600;
                     font-family: $colgate;
                     text-align: center;
+                    @include desktop {
+                        font-size: 15px;
+                    }
                 }
             }
             .plus-icon {
@@ -843,6 +920,9 @@
                 margin: auto;
                 position: relative;
                 top: 100px;
+                @include all-phone {
+                    display: none;
+                }
             }
         }
 
@@ -852,6 +932,12 @@
             height: 100%;
             border-radius: 0 0 20px 0;
             position: relative;
+            @include tablet {
+                border-radius: 0 0 20px 20px;
+            }
+            @include all-phone {
+                border-radius: 0 0 20px 20px;
+            }
             h4 {
                 color: $black-color-part-2;
                 font-size: 24px;
@@ -864,18 +950,57 @@
                 padding: 40px;
                 border-radius: 10px;
                 margin-bottom: 40px;
+                @include desktop {
+                    padding: 20px 20px 40px;
+                };
                 span {
                     color: $black-color-part-2;
                     font-size: 30px;
                     font-weight: 400;
                     font-family: $colgate;
                     display: inline-block;
+                    @include screen-1200 {
+                        font-size: 20px;
+                    }
+                    @include desktop {
+                        font-size: 20px;
+                    }
+                    @include tablet {
+                        font-size: 20px;
+                    }
+                    @include all-phone {
+                        font-size: 20px;
+                    }
                     &.big {
                         font-size: 60px;
                         font-weight: 700;
+                        @include screen-1400 {
+                            font-size: 40px;
+                        }
+                        @include screen-1200 {
+                            font-size: 30px;
+                        }
+                        @include desktop {
+                            font-size: 30px;
+                        }
+                        @include tablet {
+                            font-size: 30px;
+                        }
+                        @include all-phone {
+                            font-size: 30px;
+                        }
                     }
                 }
                 .right-side {
+                    @include desktop {
+                        margin-top: 30px;
+                    }
+                    @include tablet {
+                        margin-top: 30px;
+                    }
+                    @include all-phone {
+                        margin-top: 30px;
+                    }
                     img {
                         width: 120px;
                         margin-right: 20px;
@@ -885,6 +1010,9 @@
 
             .right-bottom {
                 margin-top: 40px; 
+                @include portrait-phone {
+                    margin-top: 20px;
+                }
                 .single-item {
                     display: flex;
                     align-items: center;
@@ -898,6 +1026,15 @@
                         font-size: 24px;
                         font-weight: 400;
                         font-family: $colgate;
+                        @include desktop {
+                            font-size: 20px;
+                        }
+                        @include tablet {
+                            font-size: 20px;
+                        }
+                        @include all-phone {
+                            font-size: 20px;
+                        }
                     }
                 }
             }
@@ -911,6 +1048,18 @@
                 bottom: 10px;
                 right: 10px;
                 text-align: right;
+                @include desktop {
+                    font-size: 14px;
+                }
+                @include tablet {
+                    font-size: 14px;
+                }
+                @include all-phone {
+                    font-size: 14px;
+                }
+                @include portrait-phone {
+                    font-size: 12px;
+                }
             }
         }
     }
@@ -924,6 +1073,12 @@
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
+            @include tablet {
+                font-size: 30px;
+            }
+            @include all-phone {
+                font-size: 30px;
+            }
             span {
                 font-weight: 400;
             }
@@ -934,12 +1089,21 @@
         margin-top: 30px;
         position: relative;
         padding: 0 30px;
+        @include tablet {
+            padding: 0 100px;
+        }
         .line-shape-1,
         .line-shape-2 {
             width: auto;
             position: absolute;
             top: 0;
             height: 95%;
+            @include tablet {
+                display: none;
+            }
+            @include all-phone {
+                display: none;
+            }
         }
         .line-shape-1 {
             left: 0;
@@ -962,14 +1126,53 @@
             &.img-1 {
                 height: 400px;
                 background-image: url('../images/gallery-1.png');
+                @include screen-1400 {
+                    height: 280px;
+                }
+                @include screen-1200 {
+                    height: 200px;
+                }
+                @include desktop {
+                    height: 170px;
+                }
+                @include portrait-phone {
+                    height: 250px;
+                }
             }
             &.img-2 {
                 height: 225px;
                 background-image: url('../images/gallery-2.png');
+                @include screen-1400 {
+                    height: 190px;
+                }
+                @include screen-1200 {
+                    height: 170px;
+                }
+                @include desktop {
+                    height: 140px;
+                }
+                @include portrait-phone {
+                    height: 100px;
+                }
             }
             &.img-3 {
                 height: 380px;
                 background-image: url('../images/gallery-3.png');
+                @include screen-1200 {
+                    height: 260px;
+                }
+                @include desktop {
+                    height: 260px;
+                }
+                @include tablet {
+                    height: 180px;
+                }
+                @include all-phone {
+                    height: 180px;
+                }
+                @include portrait-phone {
+                    height: 120px;
+                }
             }
         }
 
@@ -982,6 +1185,15 @@
                 font-size: 25px;
                 font-weight: 400;
                 font-family: $colgate;
+                @include screen-1200 {
+                    font-size: 20px;
+                }
+                @include desktop {
+                    font-size: 16px;
+                }
+                @include portrait-phone {
+                    font-size: 20px;
+                }
             }
         }
         .content-box-2 {
@@ -994,6 +1206,18 @@
                 font-size: 50px;
                 font-weight: 400;
                 font-family: $colgate;
+                @include screen-1400 {
+                    font-size: 42px;
+                }
+                @include screen-1200 {
+                    font-size: 35px;
+                }
+                @include desktop {
+                    font-size: 26px;
+                }
+                @include portrait-phone {
+                    font-size: 30px;
+                }
                 span {
                     font-weight: 600;
                 }
@@ -1012,6 +1236,18 @@
         z-index: 1;
         margin-top: 10px;
         padding: 100px;
+        @include screen-1200 {
+            padding: 100px 50px;
+        }
+        @include desktop {
+            padding: 100px 50px;
+        }
+        @include tablet {
+            padding: 50px;
+        }
+        @include all-phone {
+            padding: 50px 20px;
+        }
         .text-style {
             position: absolute;
             top: 0;
@@ -1025,6 +1261,12 @@
             border-radius: 20px 0 50px 0;
             background-image: linear-gradient(#bcbebc, #6c7873);
             z-index: -1;
+            @include tablet {
+                font-size: 24px;
+            }
+            @include all-phone {
+                font-size: 20px;
+            }
         }
 
         .title-top {
@@ -1035,8 +1277,21 @@
                 font-weight: 400;
                 font-family: $colgate;
                 margin-bottom: 20px;
+                @include tablet {
+                    font-size: 40px;
+                }
+                @include all-phone {
+                    font-size: 30px;
+                }
                 &.uppercase {
                     text-transform: uppercase;
+                    margin-top: 40px;
+                    @include tablet {
+                        margin-top: 20px;
+                    }
+                    @include all-phone {
+                        margin-top: 20px;
+                    }
                 }
                 span {
                     font-weight: 700;
@@ -1049,16 +1304,46 @@
             top: -50px;
             width: 90%;
             margin: auto;
+            @include screen-1400 {
+                top: -30px;
+            }
+            @include screen-1200 {
+                top: -30px;
+            }
+            @include desktop {
+                top: -30px;
+            }
+            @include tablet {
+                top: -10px;
+            }
+            @include all-phone {
+                top: -10px;
+            }
         }
 
         .teeth-items {
             position: relative;
             top: -50px;
+            @include screen-1400 {
+                top: -30px;
+            }
+            @include screen-1200 {
+                top: -30px;
+            }
+            @include desktop {
+                top: -30px;
+            }
+            @include tablet {
+                top: -10px;
+            }
+            @include all-phone {
+                top: -10px;
+            }
             .single-item {
                 text-align: center;
                 margin-bottom: 30px;
                 img {
-                    width: auto;
+                    width: 180px;
                     margin: auto;
                 }
                 p {
@@ -1069,6 +1354,25 @@
                     margin-top: 20px;
                     padding: 0 30px;
                     text-transform: uppercase;
+                    @include screen-1400 {
+                        font-size: 20px;
+                    }
+                    @include screen-1200 {
+                        font-size: 20px;
+                        padding: 0 15px;
+                    }
+                    @include desktop {
+                        font-size: 18px;
+                        padding: 0 15px;
+                    }
+                    @include tablet {
+                        font-size: 20px;
+                        padding: 0 20px;
+                    }
+                    @include all-phone {
+                        font-size: 20px;
+                        padding: 0 20px;
+                    }
                 }
             }
         }
@@ -1081,6 +1385,12 @@
             position: absolute;
             bottom: 20px;
             right: 50px;
+            @include tablet {
+                font-size: 16px;
+            }
+            @include all-phone {
+                font-size: 15px;
+            }
         }
     }
 }
