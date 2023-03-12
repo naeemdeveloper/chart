@@ -783,6 +783,9 @@
             font-size: 22px;
             font-weight: 300;
             font-family: $colgate;
+            @include portrait-phone {
+                font-size: 14px;
+            }
         }
     }
 

@@ -1203,6 +1203,9 @@ img {
       font-size: 22px;
       font-weight: 300;
       font-family: "colgate_ready"; }
+      @media (max-width: 575.98px) {
+        .part-2 .italic-text span {
+          font-size: 14px; } }
   .part-2 .group-images .group-image-1 {
     width: 80%;
     margin: auto; }

@@ -29,7 +29,7 @@ new Chart(ctx, {
     options: {
         indexAxis: 'y',
         layout: {
-            padding: 20
+            padding: 10
         },
         scales: {
             y: {
