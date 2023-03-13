@@ -1640,3 +1640,183 @@
     }
 } // part-3 end
 
+.part-4 {
+    background-color: $part-4-color;
+    padding: 50px;
+    border-top: 10px solid $border-color-part-4;
+    @include tablet {
+        padding: 50px 30px;
+    }
+    @include all-phone {
+        padding: 40px 20px;
+    }
+    .logo-part {
+        margin-bottom: 30px;
+        img {
+            width: auto;
+            margin: auto;
+            @include tablet {
+                width: 300px;
+            }
+            @include all-phone {
+                width: 260px;
+            }
+        }
+    }
+
+    .content-title {
+        margin: 40px 0;
+        &.more-padding h3 {
+            padding: 15px 200px;
+            @include screen-1400 {
+                padding: 15px 100px;
+            }
+            @include screen-1200 {
+                padding: 15px 80px;
+            }
+            @include desktop {
+                padding: 15px 50px;
+            }
+            @include tablet {
+                padding: 15px 30px;
+            }
+            @include all-phone {
+                padding: 15px 30px;
+            }
+        }
+        h3 {
+            color: $white-color;
+            font-size: 32px;
+            font-weight: 600;
+            font-family: $proxima;
+            padding: 15px 30px;
+            border: 2px solid $border-color-part-4;
+            border-radius: 15px;
+            text-align: center;
+            @include tablet {
+                font-size: 25px;
+            }
+            @include all-phone {
+                font-size: 25px;
+            }
+        }
+    }
+
+    .chart-box5 {
+        .content-title h3 {
+            height: 150px;
+            display: flex;
+            align-items: center;
+        }
+
+        .left-side {
+            #barChart4 {
+                background-color: $white-color;
+                border-radius: 15px;
+                margin: 30px 0;
+            }            
+        }
+        .right-side {
+            #barChart5 {
+                background-color: #e2f1e4;
+                border-radius: 15px;
+                margin: 30px 0;
+            }
+        }
+    }
+
+    .italic-text {
+        text-align: right;
+        span {
+            display: inline-block;
+            padding: 20px 0;
+            color: $white-color;
+            font-size: 22px;
+            font-weight: 300;
+            font-family: $proxima;
+            @include portrait-phone {
+                font-size: 14px;
+            }            
+        }
+    }
+
+    .gallery-title {
+        text-align: center; 
+        h2 {
+            color: $white-color;
+            font-size: 60px;
+            font-weight: 600;
+            font-family: $proxima;
+            span {
+                color: $border-color-part-4;
+            }
+            @include tablet {
+                font-size: 30px;
+            }
+            @include all-phone {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .gallery-area {
+        .single-gallery {
+            position: relative;
+            padding: 15px 0;
+            margin-bottom: 30px;
+            &.style-2 {
+                display: flex;
+                align-items: center;
+                padding: 0;
+                .image-part {
+                    width: 70%
+                }
+                .text-part {
+                    width: 30%;
+                    margin-top: 0;
+                }
+
+                &::before {
+                    top: 5%;
+                    left: -3%;
+                    width: 106%;
+                    height: 90%;
+                }
+            }
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 3%;
+                width: 94%;
+                height: 100%;
+                border: 1px solid $border-color-part-4;
+            }
+            .text-part {
+                margin-top: 10px;
+                text-align: center;
+                h3 {
+                    color: $white-color;
+                    font-size: 30px;
+                    font-weight: 600;
+                    font-family: $proxima;
+                    span {
+                        display: block;
+                        font-weight: 400;
+                    }
+
+                    @include tablet {
+                        font-size: 24px;
+                    }
+                    @include all-phone {
+                        font-size: 24px;
+                    }                    
+                }
+            }
+        }
+    }
+    
+
+} // part-4 end
+

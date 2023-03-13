@@ -348,3 +348,77 @@ new Chart(ctx8, {
         },
     },
 });
+
+const ctx9 = document.getElementById('barChart4');
+new Chart(ctx9, {
+    type: 'bar',
+    data: {
+        labels: ['Kategoria', 'Żele damskie', 'Żele męskie', 'Żele dziecięce',],
+        datasets: [{
+            label: 'WZROST I KONTRYBUCJA',
+            data: [134, 76, 50, 9,],
+            color: ['#253c7e'],
+            backgroundColor: [
+                '#006648',
+                '#a9c23e',
+                '#000000',
+                '#58acdc',
+            ],
+            borderColor: [
+                '#006648',
+                '#a9c23e',
+                '#000000',
+                '#58acdc',
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        indexAxis: 'y',
+        layout: {
+            padding: 10
+        },
+        scales: {
+            y: {
+                beginAtZero: true
+            },
+        },
+    },
+});
+
+const ctx10 = document.getElementById('barChart5');
+new Chart(ctx10, {
+    type: 'bar',
+    data: {
+        labels: ['Żele damskie', 'Konsystencja żelowa', 'Konsystencjakremowa', 'Inne',],
+        datasets: [{
+            label: 'WZROST I KONTRYBUCJA',
+            data: [76, 58, 14, 4,],
+            color: ['#253c7e'],
+            backgroundColor: [
+                '#a9c23e',
+                '#7fc242',
+                '#50ba64',
+                '#5bbcaf',
+            ],
+            borderColor: [
+                '#a9c23e',
+                '#7fc242',
+                '#50ba64',
+                '#5bbcaf',
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        indexAxis: 'y',
+        layout: {
+            padding: 10
+        },
+        scales: {
+            y: {
+                beginAtZero: true
+            },
+        },
+    },
+});

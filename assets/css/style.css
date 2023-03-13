@@ -1950,3 +1950,149 @@ img {
     @media (max-width: 767.98px) {
       .part-3 .chart-box4 #multipleChart {
         margin-top: 30px; } }
+
+.part-4 {
+  background-color: #006648;
+  padding: 50px;
+  border-top: 10px solid #a9c23e; }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .part-4 {
+      padding: 50px 30px; } }
+  @media (max-width: 767.98px) {
+    .part-4 {
+      padding: 40px 20px; } }
+  .part-4 .logo-part {
+    margin-bottom: 30px; }
+    .part-4 .logo-part img {
+      width: auto;
+      margin: auto; }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .part-4 .logo-part img {
+          width: 300px; } }
+      @media (max-width: 767.98px) {
+        .part-4 .logo-part img {
+          width: 260px; } }
+  .part-4 .content-title {
+    margin: 40px 0; }
+    .part-4 .content-title.more-padding h3 {
+      padding: 15px 200px; }
+      @media (min-width: 1400px) and (max-width: 1919.98px) {
+        .part-4 .content-title.more-padding h3 {
+          padding: 15px 100px; } }
+      @media (min-width: 1200px) and (max-width: 1399.98px) {
+        .part-4 .content-title.more-padding h3 {
+          padding: 15px 80px; } }
+      @media (min-width: 992px) and (max-width: 1199.98px) {
+        .part-4 .content-title.more-padding h3 {
+          padding: 15px 50px; } }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .part-4 .content-title.more-padding h3 {
+          padding: 15px 30px; } }
+      @media (max-width: 767.98px) {
+        .part-4 .content-title.more-padding h3 {
+          padding: 15px 30px; } }
+    .part-4 .content-title h3 {
+      color: #ffffff;
+      font-size: 32px;
+      font-weight: 600;
+      font-family: "proxima_nova_alt";
+      padding: 15px 30px;
+      border: 2px solid #a9c23e;
+      border-radius: 15px;
+      text-align: center; }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .part-4 .content-title h3 {
+          font-size: 25px; } }
+      @media (max-width: 767.98px) {
+        .part-4 .content-title h3 {
+          font-size: 25px; } }
+  .part-4 .chart-box5 .content-title h3 {
+    height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .part-4 .chart-box5 .left-side #barChart4 {
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin: 30px 0; }
+  .part-4 .chart-box5 .right-side #barChart5 {
+    background-color: #e2f1e4;
+    border-radius: 15px;
+    margin: 30px 0; }
+  .part-4 .italic-text {
+    text-align: right; }
+    .part-4 .italic-text span {
+      display: inline-block;
+      padding: 20px 0;
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 300;
+      font-family: "proxima_nova_alt"; }
+      @media (max-width: 575.98px) {
+        .part-4 .italic-text span {
+          font-size: 14px; } }
+  .part-4 .gallery-title {
+    text-align: center; }
+    .part-4 .gallery-title h2 {
+      color: #ffffff;
+      font-size: 60px;
+      font-weight: 600;
+      font-family: "proxima_nova_alt"; }
+      .part-4 .gallery-title h2 span {
+        color: #a9c23e; }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .part-4 .gallery-title h2 {
+          font-size: 30px; } }
+      @media (max-width: 767.98px) {
+        .part-4 .gallery-title h2 {
+          font-size: 30px; } }
+  .part-4 .gallery-area .single-gallery {
+    position: relative;
+    padding: 15px 0;
+    margin-bottom: 30px; }
+    .part-4 .gallery-area .single-gallery.style-2 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 0; }
+      .part-4 .gallery-area .single-gallery.style-2 .image-part {
+        width: 70%; }
+      .part-4 .gallery-area .single-gallery.style-2 .text-part {
+        width: 30%;
+        margin-top: 0; }
+      .part-4 .gallery-area .single-gallery.style-2::before {
+        top: 5%;
+        left: -3%;
+        width: 106%;
+        height: 90%; }
+    .part-4 .gallery-area .single-gallery::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 3%;
+      width: 94%;
+      height: 100%;
+      border: 1px solid #a9c23e; }
+    .part-4 .gallery-area .single-gallery .text-part {
+      margin-top: 10px;
+      text-align: center; }
+      .part-4 .gallery-area .single-gallery .text-part h3 {
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 600;
+        font-family: "proxima_nova_alt"; }
+        .part-4 .gallery-area .single-gallery .text-part h3 span {
+          display: block;
+          font-weight: 400; }
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          .part-4 .gallery-area .single-gallery .text-part h3 {
+            font-size: 24px; } }
+        @media (max-width: 767.98px) {
+          .part-4 .gallery-area .single-gallery .text-part h3 {
+            font-size: 24px; } }
