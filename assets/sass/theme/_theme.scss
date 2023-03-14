@@ -2190,3 +2190,424 @@
 
 } // part-4 end
 
+.part-5 {
+    background-color: $part-4-color;
+    padding: 10px 50px 50px;
+    border-bottom: 10px solid $border-color-part-4;
+    @include tablet {
+        padding: 10px 30px 30px;
+    }
+    @include all-phone {
+        padding: 10px 20px 20px;
+    }
+
+    .title-top {
+        color: $white-color;
+        font-size: 42px;
+        font-weight: 600;
+        font-family: $proxima;
+        text-align: center;
+        @include tablet {
+            font-size: 30px;
+        }
+        @include all-phone {
+            font-size: 30px;
+        }
+    }
+
+    .roound-content-box {
+        .box-group {
+            position: relative;
+            margin-bottom: 40px;
+            &.box-group-1 {
+                img.round-shape-1 {
+                    width: 120px;
+                    position: absolute;
+                    top: 0;
+                    right: -50px;
+                    @include tablet {
+                        display: none;
+                    }
+                    @include all-phone {
+                        display: none;
+                    }
+                }
+                img.round-shape-2 {
+                    width: 60px;
+                    position: absolute;
+                    top: 35%;
+                    right: -50px;
+                    @include tablet {
+                        display: none;
+                    }
+                    @include all-phone {
+                        display: none;
+                    }
+                }
+                .img-box-1 {
+                    position: relative;
+                    margin-top: -180px;
+                    @include screen-1200 {
+                        margin-top: -120px;
+                    }
+                    @include desktop {
+                        margin-top: -100px;
+                    }
+                    @include portrait-phone {
+                        margin-top: -70px;
+                    }
+                }
+            }
+            &.box-group-3 {
+                .img-box-2 {
+                    position: relative;
+                    margin-top: -150px;
+                    @include screen-1200 {
+                        margin-top: -100px;
+                    }
+                    @include desktop {
+                        margin-top: -80px;
+                    }
+                    @include portrait-phone {
+                        margin-top: -60px;
+                    }
+                }
+                img.round-shape-2 {
+                    width: 100px;
+                    position: absolute;
+                    top: 35%;
+                    left: -100px;
+                    @include tablet {
+                        display: none;
+                    }
+                    @include all-phone {
+                        display: none;
+                    }
+                }
+                img.round-shape-3 {
+                    width: 80px;
+                    position: absolute;
+                    top: 0;
+                    left: -30px;
+                    @include tablet {
+                        display: none;
+                    }
+                    @include all-phone {
+                        display: none;
+                    }
+                }
+            }
+
+            .text-box {
+                width: 400px;
+                height: 400px;
+                background-color: $black-color;
+                border-radius: 50%;
+                text-align: center;
+                position: relative;
+                @include screen-1200 {
+                    width: 320px;
+                    height: 320px;
+                }
+                @include desktop {
+                    width: 300px;
+                    height: 300px;
+                }
+                @include portrait-phone {
+                    width: 280px;
+                    height: 280px;
+                }
+                &.box-1 {
+                    padding: 80px 30px;
+                    @include portrait-phone {
+                        padding: 50px 30px;
+                    }
+                }
+                &.box-2 {
+                    background-color: #a9c23e;
+                    padding: 80px 30px;
+                    display: flex;
+                    align-items: end;
+                    position: relative;
+                    z-index: 1;
+                    left: 50px;
+                    @include screen-1400 {
+                        left: 0;
+                    }
+                    @include desktop {
+                        left: 0;
+                    }
+                    @include all-phone {
+                        left: 0;
+                    }
+                    h4 {
+                        font-size: 30px;
+                        color: $black-color;
+                        @include screen-1200 {
+                            font-size: 24px;
+                        }
+                        @include desktop {
+                            font-size: 24px;
+                        }
+                        @include portrait-phone {
+                            font-size: 20px;
+                        }
+                    }
+                }
+                &.box-3 {
+                    padding: 80px 30px;
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    margin-top: -120px;
+                    @include screen-1200 {
+                        margin-top: -80px;
+                    }
+                    @include desktop {
+                        margin-top: -80px;
+                    }
+                    @include portrait-phone {
+                        margin-top: -60px;
+                    }
+                }
+                &.box-4 {
+                    padding: 80px 30px;
+                    position: relative;
+                    left: 50px;
+                    @include screen-1400 {
+                        left: 0;
+                    }
+                    @include desktop {
+                        left: 0;
+                    }
+                    @include all-phone {
+                        left: 0;
+                    }
+                    @include portrait-phone {
+                        padding: 50px 30px;
+                    }
+                }
+
+                h4 {
+                    color: $white-color;
+                    font-size: 24px;
+                    font-weight: 400;
+                    font-family: $proxima;
+                    @include screen-1200 {
+                        font-size: 20px;
+                    }
+                    @include desktop {
+                        font-size: 20px;
+                    }
+                    @include portrait-phone {
+                        font-size: 20px;
+                    }
+                    span {
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .italic-text {
+        text-align: right;
+        span {
+            color: $white-color;
+            font-size: 16px;         
+        }
+    }
+
+    .content-box {
+        background-color: $black-color;
+        padding: 40px;
+        border-radius: 15px;
+        margin-top: 60px;
+
+        @include all-phone {
+            padding: 20px;
+        }
+
+        .title-top {
+            h2 {
+                color: $white-color;
+                font-size: 90px;
+                font-weight: 700;
+                font-family: $proxima;
+                @include tablet {
+                    font-size: 40px;
+                }
+                @include tablet {
+                    font-size: 36px;
+                }
+                @include all-phone {
+                    font-size: 30px;
+                }
+            }
+            h4 {
+                color: $white-color;
+                font-size: 40px;
+                font-weight: 700;
+                font-family: $proxima;
+                @include tablet {
+                    font-size: 24px;
+                }
+                @include tablet {
+                    font-size: 24px;
+                }
+                @include all-phone {
+                    font-size: 24px;
+                }
+            }
+        }
+
+        .product-box-1 {
+            .all-products {
+                img {
+                    margin-bottom: 30px;
+                }
+            }
+            .list-box {
+                padding: 80px 20px 80px 50px;
+                background-image: url('../images/product-bg-shape1.png');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 100% 100%;
+                @include all-phone {
+                    padding: 40px 20px;
+                }
+                li {
+                    margin: 10px 0;
+                    padding-left: 40px;
+                    color: $black-color;
+                    font-size: 30px;
+                    font-weight: 600;
+                    font-family: $proxima;
+                    position: relative;
+                    @include all-phone {
+                        font-size: 20px;
+                    }
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        top: 12px;
+                        left: 0;
+                        width: 25px;
+                        height: 25px;
+                        background-color: $black-color;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    
+        .title-two {
+            color: $black-color;
+            font-size: 42px;
+            font-weight: 700;
+            font-family: $proxima;
+            text-align: center;
+            padding: 30px;
+            background-image: url('../images/product-bg-shape2.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
+            margin-top: 30px;
+            @include tablet {
+                font-size: 30px;
+            }
+            @include all-phone {
+                font-size: 24px;
+                color: $white-color;
+                background-image: none;
+            }
+        }
+
+        .product-box-2 {
+            padding: 50px 10px 0 10px;
+            background-color: $white-color;
+            border-radius: 10px;
+            .single-product {
+                margin-bottom: 30px;
+                img.product-image {
+                    width: auto;
+                    margin: auto;
+                    @include all-phone {
+                        width: 100%!important;
+                    }
+                }
+
+                .contect-box {
+                    margin-top: 20px;
+                    .left-text {
+                        width: 150px;
+                        height: 150px;
+                        border-radius: 50%;     
+                        @include all-phone {
+                            margin-bottom: 20px;
+                        }                   
+                        &.box-1 {
+                            background-color: $black-color;
+                        }
+                        &.box-2 {
+                            background-color: #ca2026;
+                        }
+                        &.box-3 {
+                            background-color: #a1c34f;
+                        }
+
+                        span {
+                            color: $white-color;
+                            font-size: 30px;
+                            font-weight: 400;
+                            font-family: $proxima;
+                            display: inline-block;
+                            text-align: center;
+                            position: relative;
+                            line-height: 35px;
+                            top: 40px;
+                        }
+                    }
+
+                    .right-text {
+                        h2 {
+                            color: $black-color;
+                            font-size: 40px;
+                            font-weight: 700;
+                            font-family: $proxima;
+                            @include tablet {
+                                font-size: 30px;
+                            }
+                            @include all-phone {
+                                font-size: 24px;
+                            }
+                        }
+                        p {
+                            color: $black-color;
+                            font-size: 24px;
+                            font-weight: 400;
+                            font-family: $proxima;
+                            @include tablet {
+                                font-size: 20px;
+                            }
+                            @include all-phone {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+
+                img.formula {
+                    width: 90%;
+                    margin-top: 20px;
+                    &.formula-3 {
+                        width: 67%;
+                    }
+                }
+            }
+        }
+    }
+
+} // part-5 end
+
