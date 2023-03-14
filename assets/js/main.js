@@ -3,12 +3,29 @@
     "use strict"
     $(document).ready(function () {
 
-        // mobile menu
-        $('#mobile-menu').meanmenu({
-            meanMenuContainer: '.mobile-menu',
-            meanScreenWidth: "991.98",
-            onePage: false
+        // menu active
+        $('.menu-area li').on('click', function(event) {
+			$(this).siblings('.active').removeClass('active');
+			$(this).addClass('active');
+		});
+
+        // menu toggle bar
+        $(".menu-toggle-bar").on('click', function(){
+            $(this).toggleClass("active");
         });
+        
+        // mobile menu active
+        $(".menu-toggle-bar").on('click', function(){
+            $('.mobile-menu').toggleClass("active");
+        });
+
+        // mbolie menu active style
+        $('.mobile-menu li').on('click', function(event) {
+			$(this).siblings('.active').removeClass('active');
+			$(this).addClass('active');
+            $(".mobile-menu").toggleClass("active");
+            $(".menu-toggle-bar").toggleClass("active");
+		});
 
     });
 

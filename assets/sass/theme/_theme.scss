@@ -1,4 +1,170 @@
 /* theme */
+.header-area {
+    background-color: #253c7e;
+    padding: 20px 0;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .3);
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    .main-logo {
+        width: 500px;
+        height: auto;
+        @include desktop {
+            width: 320px;
+        }
+        @include tablet {
+            width: 350px;
+        }
+        @include all-phone {
+            width: 280px;
+        }
+        @include portrait-phone {
+            width: 250px;
+        }
+    }
+
+    .menu-toggle-bar {
+        background-color: rgba(#000, .4);
+        display: inline-block;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: $transition;
+        width: 40px;
+        height: 40px;
+        z-index: 9999;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        display: none;
+        @include tablet {
+            display: block;
+        }
+        @include all-phone {
+            display: block;
+        }
+        &.active {
+            .bar-1 {
+                transform: rotate(45deg);
+                top: 8px;
+            }
+            .bar-2 {
+                opacity: 0;
+                visibility: hidden;
+            }
+            .bar-3 {
+                transform: rotate(-45deg);
+                top: -8px;
+            }
+        }
+
+        .custom-bars {
+            padding-top: 5px;
+            padding-left: 8px;
+            .custom-bar {
+                width: 24px;
+                height: 2px;
+                background-color: $white-color;
+                margin: 6px 0;
+                transition: $transition;
+                position: relative;
+                .bar-1 {
+                    transform: rotate(0);
+                }
+                .bar-3 {
+                    transform: rotate(0);
+                }
+            }
+        }
+    }
+
+    .menu-area {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: right;
+        transition: $transition;
+        @include tablet {
+            display: none;
+        }
+        @include all-phone {
+            display: none;
+        }
+        li {
+            display: inline-block;
+            margin-left: 60px;
+            position: relative;
+            a {
+                font-size: 24px;
+                font-weight: 400;
+                font-family: $proxima;
+                color: $white-color;
+                display: block;
+                padding: 15px 7px;
+                text-decoration: none;
+                text-transform: uppercase;
+                position: relative;
+                z-index: 1;
+                transition: $transition;
+            }
+            // &.active {
+            //     a {
+            //         color: red;
+            //     }
+            // }
+            +li {
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 22px;
+                    left: -30px;
+                    width: 2px;
+                    height: 20px;
+                    background-color: $white-color;
+                }
+            }
+        }
+    }
+
+    .mobile-menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background-color: rgba(#253c7e, .9);
+        padding: 100px 30px 20px;
+        transition: $transition;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 999;
+        @include all-desktop {
+            display: none;
+        }
+        &.active {
+            height: 100vh;
+            opacity: 1;
+            visibility: visible;
+        }
+
+        li {
+            position: relative;
+            margin-bottom: 30px;
+            a {
+                color: $white-color;
+                font-size: 25px;
+                text-transform: uppercase;
+                font-weight: 700;
+                text-decoration: none;
+                padding: 2px 10px;
+                display: inline-block;
+            }
+        }
+        li.active a {
+            background-color: $part-2-color;
+        }
+    }
+} // header-area end
+
 .part-1 {
     background-color: $part-1-color;
     padding: 100px 0 50px;
@@ -1124,7 +1290,7 @@
         .single-image {
             background-repeat: no-repeat;
             background-position: center;
-            background-size: 100%;
+            background-size: cover;
             border-radius: 20px;
             &.img-1 {
                 height: 400px;
@@ -1400,12 +1566,12 @@
 
 .part-3 {
     background-color: $part-3-color;
-    padding: 50px;
+    padding: 150px 50px 50px;
     @include tablet {
-        padding: 50px 30px;
+        padding: 120px 30px 30px;
     }
     @include all-phone {
-        padding: 40px 20px;
+        padding: 120px 20px 20px;
     }
     .logo-part {
         img {
@@ -1444,11 +1610,17 @@
         background-color: #a71c18;
         border-radius: 30px;
         margin-bottom: 30px;
+        @include portrait-phone {
+            border-radius: 15px;
+        }
     }
     #lineChart2 {
         background-color: #ed6a1d;
         border-radius: 30px;
         margin-bottom: 30px;
+        @include portrait-phone {
+            border-radius: 15px;
+        }
     }
 
     .italic-text {
