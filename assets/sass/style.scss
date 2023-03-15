@@ -16,17 +16,8 @@ text domain:
 // base
 @import 'base/base';
 
-// layout
-@import 'layout/navbar';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'layout/breadcrumb';
-
 // module
 @import 'module/preloader';
-@import 'module/button';
-@import 'module/form';
-@import 'module/accordion';
 
 // theme 
 @import 'theme/default';

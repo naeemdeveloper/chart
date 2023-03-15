@@ -51,10 +51,6 @@ img {
   height: auto;
   display: block; }
 
-/* navbar */
-/* header */
-/* footer */
-/* breadcrumb */
 /* preloader */
 #preloader {
   background-color: #ffffff;
@@ -125,9 +121,6 @@ img {
     -ms-transform: rotate(360deg);
     transform: rotate(360deg); } }
 
-/* button */
-/* form */
-/* accordion */
 /* default */
 .custom-container {
   max-width: 1810px;

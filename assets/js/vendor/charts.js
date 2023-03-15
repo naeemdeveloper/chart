@@ -227,7 +227,7 @@ new Chart(ctx6, {
         labels: ['2020', '2021', '2022'],
         datasets: [{
             label: '',
-            data: [98, 98, 98],
+            data: [83, 83, 81],
             color: ['#253c7e'],
             backgroundColor: [
                 '#ed6a1d',
@@ -266,7 +266,7 @@ new Chart(ctx7, {
         labels: ['2020', '2021', '2022'],
         datasets: [{
             label: '',
-            data: [98, 98, 98],
+            data: [88, 88, 87],
             color: ['#253c7e'],
             backgroundColor: [
                 '#ed6a1d',
@@ -422,3 +422,4 @@ new Chart(ctx10, {
         },
     },
 });
+
