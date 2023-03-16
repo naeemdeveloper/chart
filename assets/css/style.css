@@ -2082,63 +2082,26 @@ img {
   .part-3 .chart-box3 {
     width: 95%;
     margin: 30px auto 0; }
-    .part-3 .chart-box3 .single-chart {
-      position: relative;
-      padding: 20px;
-      border-radius: 10px;
-      width: 90%;
-      padding-left: 80px; }
+    .part-3 .chart-box3 .single-chart img {
+      height: 500px; }
+      @media (min-width: 1400px) and (max-width: 1919.98px) {
+        .part-3 .chart-box3 .single-chart img {
+          height: 420px; } }
       @media (min-width: 1200px) and (max-width: 1399.98px) {
-        .part-3 .chart-box3 .single-chart {
-          padding-left: 40px; } }
+        .part-3 .chart-box3 .single-chart img {
+          height: 320px; } }
       @media (min-width: 992px) and (max-width: 1199.98px) {
-        .part-3 .chart-box3 .single-chart {
-          margin: 15px 0; } }
+        .part-3 .chart-box3 .single-chart img {
+          height: 300px; } }
       @media (min-width: 768px) and (max-width: 991.98px) {
-        .part-3 .chart-box3 .single-chart {
-          margin: 15px 0; } }
-      @media (max-width: 767.98px) {
-        .part-3 .chart-box3 .single-chart {
-          margin: 15px 0; } }
+        .part-3 .chart-box3 .single-chart img {
+          height: 500px; } }
+      @media (min-width: 576px) and (max-width: 767.98px) {
+        .part-3 .chart-box3 .single-chart img {
+          height: 400px; } }
       @media (max-width: 575.98px) {
-        .part-3 .chart-box3 .single-chart {
-          padding-left: 40px; } }
-      .part-3 .chart-box3 .single-chart.chart-1 {
-        background-color: #1ab5be; }
-        .part-3 .chart-box3 .single-chart.chart-1 img {
-          width: 100px; }
-          @media (min-width: 1200px) and (max-width: 1399.98px) {
-            .part-3 .chart-box3 .single-chart.chart-1 img {
-              width: 60px; } }
-          @media (max-width: 575.98px) {
-            .part-3 .chart-box3 .single-chart.chart-1 img {
-              width: 60px; } }
-      .part-3 .chart-box3 .single-chart.chart-2 {
-        background-color: #86ccd3; }
-        .part-3 .chart-box3 .single-chart.chart-2 img {
-          width: 70px; }
-          @media (min-width: 1200px) and (max-width: 1399.98px) {
-            .part-3 .chart-box3 .single-chart.chart-2 img {
-              width: 30px;
-              left: -10px; } }
-          @media (max-width: 575.98px) {
-            .part-3 .chart-box3 .single-chart.chart-2 img {
-              width: 30px;
-              left: -10px; } }
-      .part-3 .chart-box3 .single-chart.chart-3 {
-        background-color: #afdff9; }
-        .part-3 .chart-box3 .single-chart.chart-3 img {
-          width: 100px; }
-          @media (min-width: 1200px) and (max-width: 1399.98px) {
-            .part-3 .chart-box3 .single-chart.chart-3 img {
-              width: 60px; } }
-          @media (max-width: 575.98px) {
-            .part-3 .chart-box3 .single-chart.chart-3 img {
-              width: 60px; } }
-      .part-3 .chart-box3 .single-chart img {
-        position: absolute;
-        bottom: 50px;
-        left: -30px; }
+        .part-3 .chart-box3 .single-chart img {
+          height: 280px; } }
   .part-3 .chart-box4 {
     padding: 20px 80px;
     background-color: #2071b7;
@@ -2180,6 +2143,12 @@ img {
     @media (max-width: 767.98px) {
       .part-3 .chart-box4 #multipleChart {
         margin-top: 30px; } }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .part-3 img.chart-2, .part-3 img.chart-5, .part-3 img.chart-6, .part-3 img.chart-7, .part-3 img.chart-9 {
+      margin-top: 30px; } }
+  @media (max-width: 767.98px) {
+    .part-3 img.chart-2, .part-3 img.chart-5, .part-3 img.chart-6, .part-3 img.chart-7, .part-3 img.chart-9 {
+      margin-top: 30px; } }
 
 .part-4 {
   background-color: #006648;

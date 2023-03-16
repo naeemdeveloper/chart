@@ -305,7 +305,7 @@ new Chart(ctx8, {
         labels: ['Pasty do zębów', 'Szczoteczki do zębów', 'Żele pod prysznic'],
         datasets: [{
             label: '',
-            data: [20, 60, 30],
+            data: [2.0, 4.0, 8.0],
             color: ['#253c7e'],
             backgroundColor: [
                 '#1ab5be',
@@ -317,7 +317,7 @@ new Chart(ctx8, {
         },
         {
             label: '',
-            data: [98, 98, 98],
+            data: [9.5, 14.0, 13.2],
             color: ['#253c7e'],
             backgroundColor: [
                 '#ed6a1d',

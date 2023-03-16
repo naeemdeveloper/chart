@@ -1694,71 +1694,93 @@
     .chart-box3 {
         width: 95%;
         margin: 30px auto 0;
-        .single-chart {
-            position: relative;
-            padding: 20px;
-            border-radius: 10px;
-            width: 90%;
-            padding-left: 80px;
-            @include screen-1200 {
-                padding-left: 40px;
-            }
-            @include desktop {
-                margin: 15px 0;
-            }
-            @include tablet {
-                margin: 15px 0;
-            }
-            @include all-phone {
-                margin: 15px 0;
-            }
-            @include portrait-phone {
-                padding-left: 40px;
-            }
-            &.chart-1 {
-                background-color: #1ab5be;
-                img {
-                    width: 100px;
-                    @include screen-1200 {
-                        width: 60px;
-                    }
-                    @include portrait-phone {
-                        width: 60px;
-                    }
-                }
-            }
-            &.chart-2 {
-                background-color: #86ccd3;
-                img {
-                    width: 70px;
-                    @include screen-1200 {
-                        width: 30px;
-                        left: -10px;
-                    }
-                    @include portrait-phone {
-                        width: 30px;
-                        left: -10px;
-                    }
-                }
-            }
-            &.chart-3 {
-                background-color: #afdff9;
-                img {
-                    width: 100px;
-                    @include screen-1200 {
-                        width: 60px;
-                    }
-                    @include portrait-phone {
-                        width: 60px;
-                    }
-                }
-            }
 
+        .single-chart {
             img {
-                position: absolute;
-                bottom: 50px;
-                left: -30px;
+                height: 500px;
+                @include screen-1400 {
+                    height: 420px;
+                }
+                @include screen-1200 {
+                    height: 320px;
+                }
+                @include desktop {
+                    height: 300px;
+                }                
+                @include tablet {
+                    height: 500px;
+                }                
+                @include landscape-phone {
+                    height: 400px;
+                }                
+                @include portrait-phone {
+                    height: 280px;
+                }                
             }
+            // position: relative;
+            // padding: 20px;
+            // border-radius: 10px;
+            // width: 90%;
+            // padding-left: 80px;
+            // @include screen-1200 {
+            //     padding-left: 40px;
+            // }
+            // @include desktop {
+            //     margin: 15px 0;
+            // }
+            // @include tablet {
+            //     margin: 15px 0;
+            // }
+            // @include all-phone {
+            //     margin: 15px 0;
+            // }
+            // @include portrait-phone {
+            //     padding-left: 40px;
+            // }
+            // &.chart-1 {
+            //     background-color: #1ab5be;
+            //     img {
+            //         width: 100px;
+            //         @include screen-1200 {
+            //             width: 60px;
+            //         }
+            //         @include portrait-phone {
+            //             width: 60px;
+            //         }
+            //     }
+            // }
+            // &.chart-2 {
+            //     background-color: #86ccd3;
+            //     img {
+            //         width: 70px;
+            //         @include screen-1200 {
+            //             width: 30px;
+            //             left: -10px;
+            //         }
+            //         @include portrait-phone {
+            //             width: 30px;
+            //             left: -10px;
+            //         }
+            //     }
+            // }
+            // &.chart-3 {
+            //     background-color: #afdff9;
+            //     img {
+            //         width: 100px;
+            //         @include screen-1200 {
+            //             width: 60px;
+            //         }
+            //         @include portrait-phone {
+            //             width: 60px;
+            //         }
+            //     }
+            // }
+
+            // img {
+            //     position: absolute;
+            //     bottom: 50px;
+            //     left: -30px;
+            // }
         }
     }
 
@@ -1802,6 +1824,21 @@
             @include desktop {
                 margin-top: 30px;
             }
+            @include tablet {
+                margin-top: 30px;
+            }
+            @include all-phone {
+                margin-top: 30px;
+            }
+        }
+    }
+
+    img {
+        &.chart-2,
+        &.chart-5,
+        &.chart-6,
+        &.chart-7,
+        &.chart-9 {
             @include tablet {
                 margin-top: 30px;
             }
@@ -2782,4 +2819,3 @@
     }
 
 } // part-5 end
-
