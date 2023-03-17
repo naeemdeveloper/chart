@@ -2149,6 +2149,8 @@ img {
   @media (max-width: 767.98px) {
     .part-3 img.chart-2, .part-3 img.chart-5, .part-3 img.chart-6, .part-3 img.chart-7, .part-3 img.chart-9 {
       margin-top: 30px; } }
+  .part-3 img.chart-1, .part-3 img.chart-2 {
+    border-radius: 20px; }
 
 .part-4 {
   background-color: #006648;

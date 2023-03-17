@@ -1846,6 +1846,11 @@
                 margin-top: 30px;
             }
         }
+
+        &.chart-1,
+        &.chart-2 {
+            border-radius: 20px;
+        }
     }
 } // part-3 end
 
