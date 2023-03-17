@@ -681,7 +681,7 @@ img {
       .header-area .menu-area li a {
         font-size: 24px;
         font-weight: 400;
-        font-family: "proxima_nova_alt";
+        font-family: 'Proxima Nova Rg';
         color: #ffffff;
         display: block;
         padding: 15px 7px;
@@ -746,7 +746,7 @@ img {
     .part-1 .first-content h1 {
       color: #ffffff;
       font-size: 80px;
-      font-family: "Avenir Next LT Pro";
+      font-family: 'Avenir Next LT Pro';
       font-weight: 700; }
       @media (min-width: 768px) and (max-width: 991.98px) {
         .part-1 .first-content h1 {
@@ -776,7 +776,7 @@ img {
     .part-1 .second-content h5 {
       color: #ffffff;
       font-size: 40px;
-      font-family: "Avenir Next LT Pro";
+      font-family: 'Avenir Next LT Pro';
       font-weight: 700;
       margin-bottom: 30px; }
       @media (min-width: 768px) and (max-width: 991.98px) {
@@ -795,7 +795,7 @@ img {
     .part-1 .second-content ul li {
       color: #ffffff;
       font-size: 40px;
-      font-family: "Avenir Next LT Pro";
+      font-family: 'Avenir Next LT Pro';
       position: relative;
       padding-left: 30px;
       margin-bottom: 20px; }
@@ -817,7 +817,7 @@ img {
     .part-1 .second-content p {
       color: #ffffff;
       font-size: 40px;
-      font-family: "Avenir Next LT Pro"; }
+      font-family: 'Avenir Next LT Pro'; }
       @media (min-width: 768px) and (max-width: 991.98px) {
         .part-1 .second-content p {
           font-size: 30px; } }
@@ -854,7 +854,7 @@ img {
       .part-1 .third-content .main-content h2 {
         color: #ffffff;
         font-size: 90px;
-        font-family: "Avenir Next LT Pro";
+        font-family: 'Avenir Next LT Pro';
         font-weight: 700;
         text-shadow: 1px 1px #606598, 2px 2px #606598, 3px 3px #606598, 4px 4px #606598, 5px 5px #606598, 6px 6px #606598, 7px 7px 5px rgba(96, 101, 152, 0.5);
         text-align: right; }
@@ -973,7 +973,7 @@ img {
         .part-1 .fourth-area .style-box .product-area .title-top h2 {
           color: #ffffff;
           font-size: 150px;
-          font-family: "Avenir Next LT Pro";
+          font-family: 'Avenir Next LT Pro';
           font-weight: 700;
           text-shadow: 1px 1px #ac76a9, 2px 2px #ac76a9, 3px 3px #ac76a9, 4px 4px #ac76a9, 5px 5px #ac76a9, 6px 6px #606598, 7px 7px 5px rgba(172, 118, 169, 0.5);
           text-align: right;
@@ -1021,7 +1021,7 @@ img {
         .part-1 .fourth-area .style-box .product-area .title-top h4 {
           color: #ffffff;
           font-size: 50px;
-          font-family: "Avenir Next LT Pro";
+          font-family: 'Avenir Next LT Pro';
           font-weight: 400;
           text-align: right;
           margin-right: 250px; }
@@ -1095,7 +1095,7 @@ img {
             width: 100%; } }
         .part-1 .fourth-area .style-box .promotion-part .title-top h3 {
           font-size: 60px;
-          font-family: "Avenir Next LT Pro";
+          font-family: 'Avenir Next LT Pro';
           font-weight: 600;
           color: #742b8f;
           text-transform: uppercase; }
@@ -1145,7 +1145,7 @@ img {
           .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h6 {
             color: #742b8f;
             font-size: 35px;
-            font-family: "Avenir Next LT Pro";
+            font-family: 'Avenir Next LT Pro';
             font-weight: 600; }
             @media (min-width: 1200px) and (max-width: 1399.98px) {
               .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h6 {
@@ -1164,7 +1164,7 @@ img {
           .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h2 {
             color: #742b8f;
             font-size: 200px;
-            font-family: "Avenir Next LT Pro";
+            font-family: 'Avenir Next LT Pro';
             font-weight: 700;
             letter-spacing: -30px;
             line-height: 180px; }
@@ -1200,7 +1200,7 @@ img {
           .part-1 .fourth-area .style-box .promotion-part .promotion-box .single-promotion h5 {
             color: #742b8f;
             font-size: 50px;
-            font-family: "Avenir Next LT Pro";
+            font-family: 'Avenir Next LT Pro';
             font-weight: 500;
             position: relative;
             top: -40px; }
@@ -1234,7 +1234,7 @@ img {
             width: 100%; } }
         .part-1 .fourth-area .style-box .refund-part .title-top h3 {
           font-size: 60px;
-          font-family: "Avenir Next LT Pro";
+          font-family: 'Avenir Next LT Pro';
           font-weight: 600;
           color: #742b8f;
           text-transform: uppercase; }
@@ -1316,7 +1316,7 @@ img {
                     width: 120px; } }
           .part-1 .fourth-area .style-box .refund-part .refund-box .single-refund p {
             font-size: 18px;
-            font-family: "Avenir Next LT Pro";
+            font-family: 'Avenir Next LT Pro';
             font-weight: 400;
             color: #742b8f; }
             @media (min-width: 576px) and (max-width: 767.98px) {
@@ -1331,7 +1331,7 @@ img {
         .part-1 .fourth-area .style-box .disclaimer-part p {
           color: #8e8f91;
           font-size: 24px;
-          font-family: "Avenir Next LT Pro";
+          font-family: 'Avenir Next LT Pro';
           font-weight: 400; }
           @media (min-width: 1400px) and (max-width: 1919.98px) {
             .part-1 .fourth-area .style-box .disclaimer-part p {
@@ -1362,7 +1362,7 @@ img {
         .part-1 .fourth-area .style-box .footer-part h5 {
           color: #742b8f;
           font-size: 24px;
-          font-family: "Avenir Next LT Pro";
+          font-family: 'Avenir Next LT Pro';
           font-weight: 700; }
           @media (max-width: 575.98px) {
             .part-1 .fourth-area .style-box .footer-part h5 {
@@ -2196,7 +2196,7 @@ img {
       color: #ffffff;
       font-size: 32px;
       font-weight: 600;
-      font-family: "proxima_nova_alt";
+      font-family: 'Proxima Nova Rg';
       padding: 15px 30px;
       border: 2px solid #a9c23e;
       border-radius: 15px;
@@ -2246,7 +2246,7 @@ img {
       color: #ffffff;
       font-size: 22px;
       font-weight: 300;
-      font-family: "proxima_nova_alt"; }
+      font-family: 'Proxima Nova Rg'; }
       @media (max-width: 575.98px) {
         .part-4 .italic-text span {
           font-size: 14px; } }
@@ -2256,7 +2256,7 @@ img {
       color: #ffffff;
       font-size: 60px;
       font-weight: 600;
-      font-family: "proxima_nova_alt"; }
+      font-family: 'Proxima Nova Rg'; }
       .part-4 .gallery-title h2 span {
         color: #a9c23e; }
       @media (min-width: 768px) and (max-width: 991.98px) {
@@ -2302,7 +2302,7 @@ img {
         color: #ffffff;
         font-size: 30px;
         font-weight: 600;
-        font-family: "proxima_nova_alt"; }
+        font-family: 'Proxima Nova Rg'; }
         .part-4 .gallery-area .single-gallery .text-part h3 span {
           display: block;
           font-weight: 400; }
@@ -2345,7 +2345,7 @@ img {
         color: #006648;
         font-size: 36px;
         font-weight: 400;
-        font-family: "proxima_nova_alt"; }
+        font-family: 'Proxima Nova Rg'; }
         @media (min-width: 768px) and (max-width: 991.98px) {
           .part-4 .bottom-area .bottom-left .middle-content h5.top-center {
             font-size: 30px; } }
@@ -2361,7 +2361,7 @@ img {
           color: #ef4f86;
           font-size: 60px;
           font-weight: 600;
-          font-family: "proxima_nova_alt"; }
+          font-family: 'Proxima Nova Rg'; }
           @media (min-width: 1400px) and (max-width: 1919.98px) {
             .part-4 .bottom-area .bottom-left .middle-content .pink-title h2 {
               font-size: 42px; } }
@@ -2404,7 +2404,7 @@ img {
           .part-4 .bottom-area .bottom-left .middle-content .group-items .single-item .content-part h2 {
             font-size: 60px;
             font-weight: 700;
-            font-family: "proxima_nova_alt"; }
+            font-family: 'Proxima Nova Rg'; }
             @media (min-width: 768px) and (max-width: 991.98px) {
               .part-4 .bottom-area .bottom-left .middle-content .group-items .single-item .content-part h2 {
                 font-size: 40px; } }
@@ -2441,7 +2441,7 @@ img {
             color: #006648;
             font-size: 30px;
             font-weight: 400;
-            font-family: "proxima_nova_alt"; }
+            font-family: 'Proxima Nova Rg'; }
         .part-4 .bottom-area .bottom-left .product-area .bottom-content p {
           color: #006648; }
   .part-4 .bottom-area .bottom-right {
@@ -2483,7 +2483,7 @@ img {
         color: #006648;
         font-size: 36px;
         font-weight: 400;
-        font-family: "proxima_nova_alt"; }
+        font-family: 'Proxima Nova Rg'; }
         @media (min-width: 768px) and (max-width: 991.98px) {
           .part-4 .bottom-area .bottom-right .middle-content h5.top-center {
             font-size: 30px; } }
@@ -2499,7 +2499,7 @@ img {
           color: #cb9b31;
           font-size: 60px;
           font-weight: 600;
-          font-family: "proxima_nova_alt"; }
+          font-family: 'Proxima Nova Rg'; }
           @media (min-width: 1400px) and (max-width: 1919.98px) {
             .part-4 .bottom-area .bottom-right .middle-content .brown-title h2 {
               font-size: 42px; } }
@@ -2542,7 +2542,7 @@ img {
           .part-4 .bottom-area .bottom-right .middle-content .group-items .single-item .content-part h2 {
             font-size: 60px;
             font-weight: 700;
-            font-family: "proxima_nova_alt"; }
+            font-family: 'Proxima Nova Rg'; }
             @media (min-width: 768px) and (max-width: 991.98px) {
               .part-4 .bottom-area .bottom-right .middle-content .group-items .single-item .content-part h2 {
                 font-size: 40px; } }
@@ -2579,7 +2579,7 @@ img {
             color: #006648;
             font-size: 30px;
             font-weight: 400;
-            font-family: "proxima_nova_alt"; }
+            font-family: 'Proxima Nova Rg'; }
 
 .part-5 {
   background-color: #006648;
@@ -2595,7 +2595,7 @@ img {
     color: #ffffff;
     font-size: 42px;
     font-weight: 600;
-    font-family: "proxima_nova_alt";
+    font-family: 'Proxima Nova Rg';
     text-align: center; }
     @media (min-width: 768px) and (max-width: 991.98px) {
       .part-5 .title-top {
@@ -2770,7 +2770,7 @@ img {
         color: #ffffff;
         font-size: 24px;
         font-weight: 400;
-        font-family: "proxima_nova_alt"; }
+        font-family: 'Proxima Nova Rg'; }
         @media (min-width: 1200px) and (max-width: 1399.98px) {
           .part-5 .roound-content-box .box-group .text-box h4 {
             font-size: 20px; } }
@@ -2799,7 +2799,7 @@ img {
       color: #ffffff;
       font-size: 90px;
       font-weight: 700;
-      font-family: "proxima_nova_alt"; }
+      font-family: 'Proxima Nova Rg'; }
       @media (min-width: 768px) and (max-width: 991.98px) {
         .part-5 .content-box .title-top h2 {
           font-size: 40px; } }
@@ -2813,7 +2813,7 @@ img {
       color: #ffffff;
       font-size: 40px;
       font-weight: 700;
-      font-family: "proxima_nova_alt"; }
+      font-family: 'Proxima Nova Rg'; }
       @media (min-width: 768px) and (max-width: 991.98px) {
         .part-5 .content-box .title-top h4 {
           font-size: 24px; } }
@@ -2840,7 +2840,7 @@ img {
         color: #000000;
         font-size: 30px;
         font-weight: 600;
-        font-family: "proxima_nova_alt";
+        font-family: 'Proxima Nova Rg';
         position: relative; }
         @media (max-width: 767.98px) {
           .part-5 .content-box .product-box-1 .list-box li {
@@ -2858,7 +2858,7 @@ img {
       color: #000000;
       font-size: 42px;
       font-weight: 700;
-      font-family: "proxima_nova_alt";
+      font-family: 'Proxima Nova Rg';
       text-align: center;
       padding: 30px;
       background-image: url("../images/product-bg-shape2.png");
@@ -2905,7 +2905,7 @@ img {
               color: #ffffff;
               font-size: 30px;
               font-weight: 400;
-              font-family: "proxima_nova_alt";
+              font-family: 'Proxima Nova Rg';
               display: inline-block;
               text-align: center;
               position: relative;
@@ -2915,7 +2915,7 @@ img {
             color: #000000;
             font-size: 40px;
             font-weight: 700;
-            font-family: "proxima_nova_alt"; }
+            font-family: 'Proxima Nova Rg'; }
             @media (min-width: 768px) and (max-width: 991.98px) {
               .part-5 .content-box .product-box-2 .single-product .contect-box .right-text h2 {
                 font-size: 30px; } }
@@ -2926,7 +2926,7 @@ img {
             color: #000000;
             font-size: 24px;
             font-weight: 400;
-            font-family: "proxima_nova_alt"; }
+            font-family: 'Proxima Nova Rg'; }
             @media (min-width: 768px) and (max-width: 991.98px) {
               .part-5 .content-box .product-box-2 .single-product .contect-box .right-text p {
                 font-size: 20px; } }
